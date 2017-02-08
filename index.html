@@ -17,7 +17,9 @@
   	z-index: -1;
   	width: 100%;
   	height: 100%;
+  	}
 
+  	.blurred {
   	-webkit-filter: blur(5px);
   		-moz-filter: blur(5px);
   			-o-filter: blur(5px);
@@ -28,7 +30,9 @@
 
 </style>
 <body>
-	<img class="background-image" src="imgs/LAB_logo.png"></img>
+	<script src="
+https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.4/processing.min.js"></script>
+	<canvas data-processing-sources="background.pde"></canvas>
 	<h1>This is a webpage!</h1>
 </body>
 </html>
