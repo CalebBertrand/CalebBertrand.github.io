@@ -6,7 +6,7 @@ void setup() {
 var boxW = 50;
 rectMode(CENTER);
 void draw() {
-	background(0, 0, 0);
+	background(0, 0, 0, 20);
 	for (var x = boxW/2; x < width; x+=boxW) {
 		noFill();
 		strokeWeight(3);
