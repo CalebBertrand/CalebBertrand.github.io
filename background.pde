@@ -1,5 +1,9 @@
+var img;
+function preload() {
+  img = loadImage("imgs/space-background2.jpg");
+}
 function setup() {
-	createCanvas(window.innerWidth,window.innerHeight/1.5);
+	createCanvas(window.innerWidth,window.innerHeight);
 	rectMode(CENTER);
 	frameRate(23);
 }
@@ -9,7 +13,7 @@ for (var i = 0; i < 10; i++) {
 }
 var r = 0;
 function draw() {
-	background(0);
+	image(img, 0, 0, width, height)
 	translate(width/2, height/2);
 	rotate(r);
 	r+=0.001;
