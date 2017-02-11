@@ -32,7 +32,7 @@ body {
   margin: auto;
   top: 40vh;
   min-width: 100px;
-  max-width: 200px;
+  max-width: 220px;
   border-radius: 15px;
   border: solid #444 5px;
   padding: 5px;
@@ -55,6 +55,7 @@ body {
 
 a {
   text-decoration: none;
+  color: lightgrey;
 }
 a:visited {
   color: lightgrey;
@@ -65,5 +66,6 @@ a:hover {
 canvas {
   position: absolute;
   top: 0px;
+  width: 100%;
   z-index: 0;
 }
