@@ -1,6 +1,6 @@
 var img;
 function preload() {
-  img = loadImage("imgs/space-background.jpg");
+  img = loadImage("imgs/space-background-optimized.jpeg");
 }
 function setup() {
 	var ctx = createCanvas(windowWidth,windowHeight);
