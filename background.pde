@@ -3,7 +3,8 @@ function preload() {
   img = loadImage("imgs/space-background.jpg");
 }
 function setup() {
-	createCanvas(window.innerWidth,window.innerHeight);
+	var ctx = createCanvas(windowWidth,windowHeight);
+	ctx.parent("background-canvas-holder");
 	rectMode(CENTER);
 	frameRate(23);
 }
@@ -29,4 +30,8 @@ function draw() {
 			rects[i] = 40;
 		}
 	}
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
