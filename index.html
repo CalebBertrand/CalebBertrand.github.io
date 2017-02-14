@@ -8,17 +8,44 @@
 	<header id="blog">
 		<a href="https://medium.com/@caleb.a.bertrand/starting-a-video-game-day-1-92fe846d7de0#.90o8097bv">Veiw my blog on Medium</a>
 	</header>
+
 	<!-- First section, with the canvas -->
-	<div id="background-canvas-holder"></div>
-	<div id="main-name">
-		<h1>L.A.B.</h1>
-		<h3 class="blue">* * *</h3>
-		<h4>Like A Boss</h4>
-	</div>
-	<div id="scroll-down"></div>
-	<!-- Second section, with the inroduction -->
 	<div class="div-section">
-		<h1>I make websites.</h1>
+		<div id="background-canvas-holder"></div>
+		<div id="main-name">
+			<h1>L.A.B.</h1>
+			<h3 class="blue">* * *</h3>
+			<h4>Like A Boss</h4>
+		</div>
+		<div id="scroll-down" onClick="document.getElementById('first').scrollIntoView({ behavior: 'smooth' });"></div>
+	</div>
+	<!-- Second section, with the inroduction -->
+	<div class="div-section" id="first">
+		<h1>I'll Make Ya A Website.</h1>
+		<p>Programming since 12 years old, I have a strong understanding of the web and the gears behind it. This website was created purely from scratch - no drag-and-drop software, and no templates. If you want a website, I can make it. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</aside>
+	</div>
+	<div class="div-section" id="second">
+		<h1>I'm A Game Developer</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</aside>
 	</div>
 	<script src="background.pde"></script>
 </body>

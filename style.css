@@ -5,32 +5,18 @@
     -moz-box-sizing: border-box;
       box-sizing: border-box;
 
-  font-family: "Orbitron", "sans-serif";
   color: white;
-  z-index: 1;
+  z-index: 0;
 }
 
 body {
   background-color: black;
   margin: 0px;
+  padding: 0px;
 }
 
 .blue {
   color: #099;
-}
-
-#main-name {
-  position: absolute;
-  background-color: #111;
-  left: 43vw;
-  top: 34vh;
-  min-width: 120px;
-  border-radius: 15px;
-  border: solid #444 5px;
-  padding-left: 2vw;
-  padding-right: 2vw;
-  text-align: center;
-  color: white;
 }
 
 #blog {
@@ -44,6 +30,28 @@ body {
   border-bottom-left-radius: 8px;
   color: lightgrey;
   font-size: 1.1em;
+  font-family: "Orbitron", "sans-serif";
+  z-index: 1;
+}
+
+.div-section {
+  padding: 20px;
+  width: 100%;
+  background-color: #222;
+}
+.div-section p {
+  float: left;
+  width: 64%;
+  padding: 15px;
+}
+.div-section aside {
+  border-left: solid grey 2px;
+  margin-left: 64%;
+  padding: 15px;
+}
+.div-section h1 {
+  font-family: "Orbitron", "sans-serif";
+  text-align: center;
 }
 
 a {
@@ -59,8 +67,44 @@ a:hover {
 
 /* Home Page */
 
-.div-section {
+#main-name {
+  position: relative;
+  background-color: #111;
+  margin: auto;
+  margin-top: 35vh;
+  width: 12%;
+  min-width: 125px;
+  border-radius: 15px;
+  border: solid #444 5px;
+  text-align: center;
+  color: white;
+  font-family: "Orbitron", "sans-serif";
+  z-index: 1;
+}
+#scroll-down {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: solid #222 8px;
+  margin: auto;
+  margin-top: 18vh;
+  background-image: url("imgs/down-arrow-optimized.png");
+  background-repeat: no-repeat;
+  background-position: -8px -8px;
+  z-index: 1;
+}
+
+#background-canvas-holder {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#first {
+  margin-top: 6.2vh;
   border-top: solid #099 15px;
-  width: 100%;
-  height: 100vh;
+}
+#second {
+  border-top: solid #090 15px;
 }
