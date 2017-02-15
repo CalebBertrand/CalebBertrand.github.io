@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
-
 * {
   -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -83,15 +82,15 @@ a:hover {
 }
 #scroll-down {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 83px;
+  height: 83px;
   border-radius: 50%;
-  border: solid #222 8px;
+  border: solid #5a5a5a 4px;
   margin: auto;
-  margin-top: 18vh;
-  background-image: url("imgs/down-arrow-optimized.png");
+  margin-top: 17vh;
+  background-image: url("imgs/down-arrow-transparent.png");
   background-repeat: no-repeat;
-  background-position: -8px -8px;
+  background-position: -3px -1px;
   z-index: 1;
 }
 
