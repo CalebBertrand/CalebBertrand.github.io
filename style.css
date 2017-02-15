@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+@keyframes expand {
+    from {width: 60px; height: 60px;}
+    to {width: 84px; height: 84px;}
+}
 * {
   -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -74,7 +79,7 @@ a:hover {
   width: 12%;
   min-width: 125px;
   border-radius: 15px;
-  border: solid #444 5px;
+  border: solid rgb(50, 50, 50) 5px;
   text-align: center;
   color: white;
   font-family: "Orbitron", "sans-serif";
@@ -85,13 +90,17 @@ a:hover {
   width: 83px;
   height: 83px;
   border-radius: 50%;
-  border: solid #5a5a5a 4px;
   margin: auto;
   margin-top: 17vh;
-  background-image: url("imgs/down-arrow-transparent.png");
+  background-image: url("imgs/down-arrow.png");
   background-repeat: no-repeat;
-  background-position: -3px -1px;
+  background-position: 4px 10px;
   z-index: 1;
+}
+#scroll-down:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  animation-name: expand;
+  animation-duration: 0.3s;
 }
 
 #background-canvas-holder {
