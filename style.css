@@ -41,12 +41,24 @@ body {
 .div-section {
   padding: 20px;
   width: 100%;
+  height: 350px;
   background-color: #222;
 }
 .div-section p {
   float: left;
   width: 64%;
   padding: 15px;
+}
+.div-section ul {
+  float: left;
+  width: 64%;
+}
+.div-section li {
+  color: #099;
+  margin-bottom: 7px;
+}
+.div-section li span {
+  color: white;
 }
 .div-section aside {
   border-left: solid grey 2px;
@@ -115,4 +127,7 @@ a:hover {
 }
 #second {
   border-top: solid #090 15px;
+}
+#third {
+  border-top: solid #900 15px;
 }
