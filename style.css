@@ -73,6 +73,9 @@ body {
 #image-1 {
   background-image: url('imgs/coding.jpg');
 }
+#image-2 {
+  background-image: url('imgs/rpg-maker.png');
+}
 .background-image {
   opacity: 0.75;
   background-attachment: fixed;
