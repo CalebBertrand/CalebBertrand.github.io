@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 @keyframes opacity {
-    from {opacity: 0.0;}
+    from {opacity: 0.8;}
     to {opacity: 1;}
+}
+@keyframes greytowhite {
+  from {color: lightgrey;}
+  to {color: white;}
 }
 * {
   -webkit-box-sizing: border-box;
@@ -32,17 +37,30 @@ body {
   background-color: #099;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
-  color: lightgrey;
   font-size: 1.1em;
   font-family: "Orbitron", "sans-serif";
   z-index: 1;
 }
+#blog a {
+  color: lightgrey;
+}
+#blog a:visited {
+  color: lightgrey;
+}
+#blog a:hover {
+  animation-name: greytowhite;
+  animation-duration: 1s;
+  color: white;
+}
+
 
 .div-section {
   padding: 20px;
   width: 100%;
   height: 350px;
   background-color: #222;
+  font-family: "Lato", "sans-serif";
+  font-size: 1.05em;
 }
 .div-section p {
   float: left;
@@ -74,10 +92,10 @@ body {
   background-image: url('imgs/coding.jpg');
 }
 #image-2 {
-  background-image: url('imgs/retro.png');
+  background-image: url('imgs/game.JPG');
 }
 .background-image {
-  opacity: 0.75;
+  opacity: 0.8;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 100vh;
@@ -87,13 +105,13 @@ body {
 
 a {
   text-decoration: none;
-  color: lightgrey;
+  color: #099;
 }
 a:visited {
-  color: lightgrey;
+  color: #099;
 }
 a:hover {
- color: white;
+ color: lightgrey;
 }
 
 /* Home Page */
@@ -124,11 +142,14 @@ a:hover {
   background-image: url("imgs/down-arrow.png");
   background-repeat: no-repeat;
   background-position: 4px 10px;
+  opacity: 0.8;
+  font-family: "Orbitron", "sans-serif";
   z-index: 1;
 }
 #scroll-down:hover {
+  opacity: 1;
   animation-name: opacity;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 #background-canvas-holder {
