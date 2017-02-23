@@ -159,15 +159,14 @@ a:hover {
   animation-name: opacity;
   animation-duration: 1.2s;
 }
-@media only screen and (max-height: 560px) {
+@media only screen and (max-height: 500px) {
     /* For mobile phones: */
     #main-name {
-      top: -73vh;
+      top: -75vh;
     }
     #scroll-down {
-      top: -64vh;
+      top: -70vh;
     }
-
 }
 #background-canvas-holder {
   position: relative;

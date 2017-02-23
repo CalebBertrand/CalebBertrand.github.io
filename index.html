@@ -19,7 +19,7 @@
 			<h3 class="blue">* * *</h3>
 			<h4>Like A Boss</h4>
 		</div>
-		<div id="scroll-down" onClick="document.getElementById('first').scrollIntoView({ behavior: 'smooth' });"></div>
+		<div id="scroll-down"></div>
 	</div>
 	<!-- Second section, with the inroduction -->
 	<div class="div-section" id="first">
@@ -56,5 +56,13 @@
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</aside>
 	</div>
 	<script src="background.pde"></script>
+	<script src="libs/jQuery"></script>
+	<script>
+		$("#scroll-down").click(function() {
+    		$('html, body').animate({
+        		scrollTop: $("#first").offset().top
+    		}, 2000);
+		});
+	</script>
 </body>
 </html>
