@@ -49,22 +49,24 @@ body {
 }
 #blog a:hover {
   animation-name: greytowhite;
-  animation-duration: 0.9s;
+  animation-duration: 0.8s;
   color: white;
 }
 
 
 .div-section {
-  padding: 20px;
+  padding: 15px;
   width: 100%;
+  min-height: 300px;
   background-color: #222;
   font-family: "Lato", "sans-serif";
   font-size: 1.05em;
+  overflow: auto;
 }
 .div-section p {
   float: left;
   width: 64%;
-  padding: 15px;
+  padding: 5px;
 }
 .div-section ul {
   float: left;
@@ -79,8 +81,8 @@ body {
 }
 .div-section aside {
   border-left: solid grey 2px;
-  padding: 15px;
-  margin-left: 64%;
+  padding: 5px;
+  margin-left: 65%;
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -104,7 +106,7 @@ body {
   opacity: 0.8;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
   width: 100%;
   height: 80vh;
 }
@@ -157,7 +159,16 @@ a:hover {
   animation-name: opacity;
   animation-duration: 1.2s;
 }
+@media only screen and (max-height: 560px) {
+    /* For mobile phones: */
+    #main-name {
+      top: -73vh;
+    }
+    #scroll-down {
+      top: -64vh;
+    }
 
+}
 #background-canvas-holder {
   position: relative;
   top: 0px;
