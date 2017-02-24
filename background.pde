@@ -1,6 +1,10 @@
 var img;
 function preload() {
-  img = loadImage("imgs/space-background-optimized.jpeg");
+	if (windowWidth < 501) {
+		img = loadImage("imgs/space-background.jpg");
+	}else {
+		img = loadImage("imgs/space-background-large.jpeg");
+	}
 }
 function setup() {
 	var ctx = createCanvas(windowWidth,windowHeight);

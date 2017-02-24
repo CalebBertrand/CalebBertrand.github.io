@@ -104,6 +104,9 @@ body {
 }
 @media only screen and (min-width: 500px) {
     /* For mobile phones: */
+    #image-1 {
+      background-image: url("imgs/coding-large.jpg");
+    }
     #image-2 {
         background-image: url("imgs/game-large.jpg")
     }
