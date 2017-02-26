@@ -102,7 +102,7 @@ body {
 #image-2 {
   background-image: url('imgs/game.jpg');
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 500px) {
     /* For mobile phones: */
     #image-1 {
       background-image: url("imgs/coding-large.jpg");
@@ -110,12 +110,14 @@ body {
     #image-2 {
         background-image: url("imgs/game-large.jpg")
     }
+    .background-image {
+        background-attachment: scroll;
+    }
 }
 .background-image {
   opacity: 0.8;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
   width: 100%;
   height: 80vh;
 }
@@ -134,47 +136,65 @@ a:hover {
 /* Home Page */
 
 #main-name {
-  position: relative;
+  position: absolute;
   background-color: #111;
-  margin: auto;
-  top: -65vh;
-  width: 12%;
-  min-width: 135px;
-  height: 170px;
+  left: calc(50vw - (18% / 2));
+  right: calc(50vh - (18% / 2));
+  top: 37vh;
+  width: 18%;
+  min-height: 160px;
   border-radius: 15px;
   border: solid rgb(50, 50, 50) 5px;
   text-align: center;
   color: white;
   font-family: "Orbitron", "sans-serif";
-  z-index: 1;
+  z-index: 2;
 }
 #scroll-down {
-  position: relative;
+  position: absolute;
   width: 83px;
   height: 83px;
   border-radius: 50%;
-  margin: auto;
-  top: -52vh;
-  margin-bottom: -260px;
+  left: calc(50vw - (83px / 2));
+  right: calc(50vh - (83px / 2));
+  top: 73vh;
   background-image: url("imgs/down-arrow.png");
   background-repeat: no-repeat;
   background-position: 4px 10px;
   opacity: 0.65;
   font-family: "Orbitron", "sans-serif";
-  z-index: 1;
+  z-index: 2;
 }
 #scroll-down:hover {
   opacity: 1;
   animation-name: opacity;
   animation-duration: 1.2s;
 }
-@media only screen and (max-height: 500px) {
-    /* For mobile phones: */
+@media screen and (max-width: 991px) {
+     /* start of large tablet styles */
     #main-name {
-      top: -75vh;
+      font-size: 0.97em;
+      width: 20%;
+      left: calc(50vw - (20% / 2));
+      right: calc(50vh - (20% / 2));
     }
-    #scroll-down {
-      top: -70vh;
+}
+@media screen and (max-width: 767px) {
+     /* start of medium tablet styles */
+     #main-name {
+      font-size: 0.88em;
+      width: 22%;
+      left: calc(50vw - (22% / 2));
+      right: calc(50vh - (22% / 2));
+    }
+}
+@media screen and (max-width: 439px) {
+     /* start of phone styles */
+     #main-name {
+      font-size: 0.84em;
+      width: 34%;
+      left: calc(50vw - (34% / 2));
+      right: calc(50vh - (34% / 2));
     }
 }
 #background-canvas-holder {
