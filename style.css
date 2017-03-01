@@ -197,6 +197,11 @@ a:hover {
       right: calc(50vh - (34% / 2));
     }
 }
+@media screen and (max-width: 439px) and (orientation: landscape) {
+  #scroll-down {
+    display: none;
+  }
+}
 #background-canvas-holder {
   position: relative;
   top: 0px;
