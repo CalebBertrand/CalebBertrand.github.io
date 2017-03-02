@@ -148,7 +148,7 @@ a:hover {
   text-align: center;
   color: white;
   font-family: "Orbitron", "sans-serif";
-  z-index: 2;
+  z-index: 1;
 }
 #scroll-down {
   position: absolute;
@@ -163,7 +163,7 @@ a:hover {
   background-position: 4px 10px;
   opacity: 0.65;
   font-family: "Orbitron", "sans-serif";
-  z-index: 2;
+  z-index: 1;
 }
 #scroll-down:hover {
   opacity: 1;
