@@ -197,10 +197,9 @@ a:hover {
       right: calc(50vh - (34% / 2));
     }
 }
-@media handheld and (max-height: 399px) and (orientation: landscape) {
+@media screen and (max-height: 399px) {
   #scroll-down {
     display: none;
-    background-image: url('');
   }
 }
 canvas {
