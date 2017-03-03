@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 @keyframes opacity {
-    from {opacity: 0.65;}
+    from {opacity: 0.8;}
     to {opacity: 1;}
 }
 @keyframes greytowhite {
@@ -161,7 +161,7 @@ a:hover {
   background-image: url("imgs/down-arrow.png");
   background-repeat: no-repeat;
   background-position: 4px 10px;
-  opacity: 0.65;
+  opacity: 0.8;
   font-family: "Orbitron", "sans-serif";
   z-index: 1;
 }
@@ -200,15 +200,12 @@ a:hover {
 @media handheld and (max-height: 399px) and (orientation: landscape) {
   #scroll-down {
     display: none;
+    background-image: url('');
   }
 }
-#background-canvas-holder {
-  position: relative;
-  top: 0px;
-  left: 0px;
-}
 canvas {
-  width: 100% !important;
+  width: 100vw !important;
+  height: 100vh !important;
 }
 
 #first {
