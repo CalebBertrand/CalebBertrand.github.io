@@ -97,10 +97,10 @@ body {
 }
 
 #image-1 {
-  background: url('imgs/coding.jpg') no-repeat center center fixed; 
+  background: url('imgs/coding.jpg') no-repeat 100% center fixed; 
 }
 #image-2 {
-  background: url('imgs/game.jpg') no-repeat center center fixed; 
+  background: url('imgs/game.jpg') no-repeat 100% center fixed; 
 }
 @media only screen and (min-width: 500px) {
     /* For mobile phones: */
