@@ -111,28 +111,20 @@ body {
         background-image: url("imgs/game-large.jpg")
     }
     .background-image {
-        -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-size: 100% 100vh;
   opacity: 0.8;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100% 100vh;
   background-position: left top;
   height: 85vh;
     }
 }
 .background-image {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   opacity: 0.8;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100% 100vh;
   background-position: left top;
+  background-size: 100% 100vh;
   height: 85vh;
 }
 
