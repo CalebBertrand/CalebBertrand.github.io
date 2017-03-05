@@ -123,6 +123,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 100vh;
+  background-position: left top;
   height: 85vh;
 }
 
