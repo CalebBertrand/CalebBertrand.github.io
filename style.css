@@ -97,10 +97,10 @@ body {
 }
 
 #image-1 {
-  background: url('imgs/coding.jpg') no-repeat 100% 100vh fixed; 
+  background-image: url('imgs/coding.jpg');
 }
 #image-2 {
-  background: url('imgs/game.jpg') no-repeat 100% 100vh fixed; 
+  background-image: url('imgs/game.jpg');
 }
 @media only screen and (min-width: 500px) {
     /* For mobile phones: */
@@ -120,6 +120,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
   opacity: 0.8;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
   height: 85vh;
 }
 
