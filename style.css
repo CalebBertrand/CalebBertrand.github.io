@@ -110,10 +110,12 @@ body {
     #image-2 {
       background-image: url("imgs/game-large.jpg");
     }
+    .background-image {
+      background-attachment: fixed;
+    }
 }
 .background-image {
   opacity: 0.8;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 100vh;
   height: 85vh;
