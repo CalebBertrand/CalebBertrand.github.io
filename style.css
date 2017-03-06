@@ -110,6 +110,8 @@ body {
     #image-2 {
       background-image: url("imgs/game-large.jpg");
     }
+}
+@media not handheld {
     .background-image {
       background-attachment: fixed;
     }
