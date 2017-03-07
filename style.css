@@ -97,7 +97,7 @@ body {
 }
 
 .image {
-  height: 85vh;
+  height: 400px;
   width: 100%;
 }
 @media not handheld {
