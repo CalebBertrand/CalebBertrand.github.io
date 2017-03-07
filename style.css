@@ -120,8 +120,8 @@ body {
   opacity: 0.8;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% auto;
-  height: 85vh;
+  background-size: cover;
+  height: 400px;
 }
 
 a {
