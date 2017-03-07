@@ -119,8 +119,8 @@ body {
 .background-image {
   opacity: 0.8;
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: 100% 100%;
+  background-position: center center;
+  background-size: cover;
   height: 85vh;
 }
 
