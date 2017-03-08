@@ -102,7 +102,7 @@ body {
 #image-2 {
   background-image: url("imgs/game.JPG");
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
     /* For desktop: */
     #image-1 {
       background-image: url("imgs/coding-large.jpg");
@@ -110,8 +110,6 @@ body {
     #image-2 {
       background-image: url("imgs/game-large.jpg");
     }
-}
-@media not handheld {
     .background-image {
       background-attachment: fixed;
     }
@@ -120,7 +118,7 @@ body {
   opacity: 0.8;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   height: 400px;
 }
 
