@@ -4,6 +4,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="libs/p5.min.js"></script>
+	<script src="libs/jQuery"></script>
+	<script>
+		if (windowWidth > 550) {
+			$('#big-img-1').attr('src', 'imgs/coding-large.jpg');
+			$('#big-img-2').attr('src', 'imgs/game-large.jpg');
+		}
+	</script>
 </head>
 <body>
 	<header id="blog">
@@ -28,7 +35,7 @@
 
 		<aside>Veiw the other sites I've made <a>here</a></aside>
 	</div>
-	<!--<img src="imgs/coding-large.jpg" class="background-img"></img>-->
+	<!--<img src="imgs/coding.jpg" class="big-image" id="big-img-1"></img>-->
 	<div id="image-1" class="background-image"></div>
 	<div class="div-section" id="second">
 		<h1>I'm A Game Developer</h1>
@@ -42,7 +49,7 @@
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</aside>
 	</div>
 	<div id="image-2" class="background-image"></div>
-	<!--<img src="imgs/game-large.jpg" class="background-img"></img>-->
+	<!--<img src="imgs/game.JPG" class="big-image" id="big-img-2"></img>-->
 	<div class="div-section" id="third">
 		<h1>Make Contact</h1>
 		<ul>
@@ -58,13 +65,11 @@
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</aside>
 	</div>
 	<script src="background.pde"></script>
-	<script src="libs/jQuery"></script>
 	<script>
 		$("#scroll-down").click(function() {
     		$('html, body').animate({
         		scrollTop: $("#first").offset().top
-    		}, 1500);
-		});
-	</script>
+    	}, 1500);
+    </script>
 </body>
 </html>

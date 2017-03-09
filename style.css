@@ -102,14 +102,8 @@ body {
 #image-2 {
   background-image: url("imgs/game.JPG");
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 550px) {
     /* For desktop: */
-    #image-1 {
-      background-image: url("imgs/coding-large.jpg");
-    }
-    #image-2 {
-      background-image: url("imgs/game-large.jpg");
-    }
     .background-image {
       background-attachment: fixed;
     }
@@ -213,6 +207,7 @@ canvas {
 }
 #second {
   border-top: solid #090 15px;
+
 }
 #third {
   border-top: solid #900 15px;
