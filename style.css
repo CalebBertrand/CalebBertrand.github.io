@@ -97,29 +97,31 @@ body {
 }
 
 #image-1 {
-  background-image: url('imgs/coding.jpg');
+  display: none;
 }
 #image-2 {
-  background-image: url("imgs/game.JPG");
+  display: none;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
     /* For desktop: */
     .background-image {
       background-attachment: fixed;
     }
     #image-1 {
       background-image: url('imgs/coding-large.jpg');
+      display: block;
     }
     #image-2 {
       background-image: url("imgs/game-large.jpg");
+      display: block;
     }
-}
-.background-image {
-  opacity: 0.8;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 400px;
+    .background-image {
+      opacity: 0.8;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 400px;
+    }
 }
 
 a {
