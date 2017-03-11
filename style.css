@@ -96,7 +96,7 @@ body {
   text-align: center;
 }
 
-@media only (not all and handheld) {
+@media not all and handheld {
     /* For desktop: */
     .background-image {
       background-attachment: fixed;
