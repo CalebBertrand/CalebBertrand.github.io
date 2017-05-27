@@ -39,6 +39,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Sizes */
 
+.bloc-xl{
+	padding:150px 50px;
+}
 .bloc-lg{
 	padding:100px 50px;
 }
@@ -96,20 +99,26 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	color: rgba(255,255,255,1);
 }
 
-/* = Full Width Blocs 
--------------------------------------------------------------- */
 
-.full-width-bloc{
-	padding-left:0;
-	padding-right:0;
+/* Group Styles */
+
+.bloc-group{
+	display:flex;
 }
-.full-width-bloc .container{
-	width:100%;
-	max-width:100%!important;
+.bloc-group .bloc{
+	flex: 1;
 }
-.full-width-bloc .carousel img{
+.bloc-tile-2{
+	width:50%;
+}
+.bloc-tile-3{
+	width:33.33333333%;
+}
+.bloc-tile-4{
+	width:25%;
+}
+.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
 	width:100%;
-	height:auto;
 }
 
 
@@ -201,6 +210,15 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
+#bloc-5 h1{
+	font-size: 52px;
+}
+#bloc-5 p{
+	font-size: 26px;
+}
+#bloc-7 h2{
+	font-size: 40px;
+}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -339,6 +357,18 @@ nav .caret{
 .mg-lg{
 	margin-top:10px;
 	margin-bottom:40px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
 }
 
 /* = Buttons
@@ -695,12 +725,30 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .contact{
 	margin-left:108px;
+	font-weight:normal;
 }
 .border-top-thin{
 	padding-top:70px;
 	border-style:solid;
 	border-width:1px 0px 0px 0px;
 	border-color:#ACACAC;
+}
+.bold{
+	font-weight:bold;
+	color:#757575!important;
+}
+.buy-now{
+	background-color:#000000;
+	background:linear-gradient(352deg, #FF63BF, #FF8E35);
+	font-weight:bold;
+	font-size:23px;
+	box-shadow:0px 0px 19px rgba(204,53,255,0.8);
+}
+.buy-now:active{
+}
+.buy-now:hover{
+	background:linear-gradient(352deg, #FF4EE9, #FF7D34);
+	background-color:#FF318B;
 }
 
 /* = Colour

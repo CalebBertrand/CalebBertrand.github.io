@@ -29,6 +29,16 @@
 </div>
 <!-- Main container END -->
 
+<script>
+  	var $cog = $('.gear'),
+    $body = $(document.body),
+    bodyHeight = $body.height();
 
+	$(window).scroll(function () {
+    	$cog.css({
+    	    'transform': 'rotate(' + ($body.scrollTop() / bodyHeight * 1000) + 'deg)'
+    	});
+	});
+  </script>
 </body>
 </html>
