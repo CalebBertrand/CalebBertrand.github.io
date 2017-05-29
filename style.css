@@ -639,7 +639,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:19px;
 }
 .begin{
-	border-color:rgba(252,255,255,0.9);
+	border-color:#FAFBFF;
 	border-style:solid;
 	border-radius:20px 20px 20px 20px;
 	font-size:50px;
@@ -649,6 +649,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:112px;
 	font-weight:600;
 	letter-spacing:1px;
+	background-color:rgba(0,0,0,0.0);
 }
 .face{
 	box-shadow:0px 0px 16px #646464;
@@ -720,6 +721,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-ufo-green:hover{
 	background:#1ea54a;
 	color:#FFFFFF!important;
+}
+.wire-btn-white-smoke{
+	color:#F7F6F6!important;
+	border-color:#F7F6F6!important;
+}
+/* Link colour styles */
+
+.ltc-languid-lavender{
+	color:#D3CDE0!important;
+}
+.ltc-languid-lavender:hover{
+	color:#a9a4b3!important;
+}
+.ltc-white-smoke{
+	color:#F7F6F6!important;
+}
+.ltc-white-smoke:hover{
+	color:#c6c5c5!important;
 }
 
 /* Bloc image backgrounds */
