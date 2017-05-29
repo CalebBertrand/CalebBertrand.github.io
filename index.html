@@ -1,17 +1,37 @@
-title = "Home"
-url = "/"
-layout = "default"
-description = "Home"
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="./css/animate.min.css"><link rel="stylesheet" href="./css/font-awesome.min.css"><link rel="stylesheet" href="./css/et-line.min.css"><link rel="stylesheet" href="./css/ionicons.min.css"><link rel="stylesheet" href="./css/feather.min.css"><link rel="stylesheet" href="./css/linecons.min.css"><link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+    <title>Home</title>
 
-==
-
-
+    
+<!-- Google Analytics -->
+ 
+<!-- Google Analytics END -->
+    
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
 <!-- bloc-1 -->
-<div class="bloc bgc-white-smoke bloc-fill-screen bg-1234501-hong-kong d-bloc b-parallax" id="bloc-1">
+<div class="bloc bloc-fill-screen bg-1234501-hong-kong b-parallax bgc-white-smoke l-bloc " id="bloc-1">
 	<div class="container fill-bloc-top-edge">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="{{ 'home'|page }}">L.A.B. Sites</a>
+				<a class="navbar-brand" href="index.html">L.A.B. Sites</a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -19,13 +39,13 @@ description = "Home"
 			<div class="collapse navbar-collapse navbar-1">
 				<ul class="site-navigation nav navbar-nav pull-right">
 					<li>
-						<a href="{{ 'home'|page }}">Home</a>
+						<a href="index.html">Home</a>
 					</li>
 					<li>
 						<a href="https://medium.com/@caleb.a.bertrand/starting-a-video-game-day-1-92fe846d7de0" id="pl-undefined" target="_blank">Blog</a>
 					</li>
 					<li>
-						<a href="{{ 'pricing'|page }}">Pricing</a>
+						<a href="pricing.html">Pricing</a>
 					</li>
 				</ul>
 			</div>
@@ -41,7 +61,7 @@ description = "Home"
 					Great, Top Rate Sites For The Web
 				</h3>
 				<div class="text-center">
-					<a href="{{ 'pricing'|page }}" id="retro-start" class="btn btn-xl pulse-hvr begin btn-wire animated">START<br><br></a>
+					<a href="pricing.html" id="retro-start" class="btn btn-xl pulse-hvr begin btn-wire animated">START<br><br></a>
 				</div>
 			</div>
 		</div>
@@ -64,25 +84,46 @@ description = "Home"
 				<div class="text-center">
 					<span class="et-icon-mobile icon-round icon-md puffIn animDelay02 animated"></span>
 				</div>
-				<div>
-					{% content 'feature-1.htm' %}
-				</div>
+				<cmsblock class="october-cms-block">
+					<div class="animDelay04 undefined icon-descr fadeInUp animSpeedLazy animated">
+						<h3 class="text-center mg-md">
+							Responsive
+						</h3>
+						<p class="text-center">
+							Website awesomeness totally independent of device viewed on.
+						</p>
+					</div>
+				</cmsblock>
 			</div>
 			<div class="col-sm-4">
 				<div class="text-center">
 					<span class="et-icon-profile-male icon-round icon-md puffIn undefined animDelay04 animated"></span>
 				</div>
-				<div>
-					{% content 'feature-2.htm' %}
-				</div>
+				<cmsblock class="october-cms-block">
+					<div class="animDelay04 undefined icon-descr fadeInUp animSpeedLazy animated">
+						<h3 class="text-center mg-md">
+							Custom
+						</h3>
+						<p class="text-center">
+							Websites just how you like them.
+						</p>
+					</div>
+				</cmsblock>
 			</div>
 			<div class="col-sm-4">
 				<div class="text-center">
 					<span class="ion ion-mouse icon-round icon-md puffIn animDelay06 animated"></span>
 				</div>
-				<div>
-					{% content 'feature-3.htm' %}
-				</div>
+				<cmsblock class="october-cms-block">
+					<div class="animDelay08 undefined icon-descr fadeInUp animSpeedLazy animated">
+						<h3 class="text-center mg-md">
+							CMS Empowered
+						</h3>
+						<p class="text-center">
+							Edit your site whenerver you like, no endless client - developer emails.*
+						</p>
+					</div>
+				</cmsblock>
 			</div>
 		</div>
 	</div>
@@ -97,25 +138,46 @@ description = "Home"
 				<div class="text-center">
 					<span class="fa fa-smile-o icon-round icon-md puffIn animated"></span>
 				</div>
-				<div>
-					{% content 'feature-4.htm' %}
-				</div>
+				<cmsblock class="october-cms-block">
+					<div class="animSpeedLazy fadeInUp animDelay02 icon-descr animated">
+						<h3 class="text-center mg-md">
+							Crazy Simple
+						</h3>
+						<p class="text-center">
+							I'll take care of your site domain and hosting.
+						</p>
+					</div>
+				</cmsblock>
 			</div>
 			<div class="col-sm-4">
 				<div class="text-center">
 					<span class="ion ion-ios-rose icon-round icon-md puffIn animDelay02 animated"></span>
 				</div>
-				<div>
-					{% content 'feature-5.htm' %}
-				</div>
+				<cmsblock class="october-cms-block">
+					<div class="undefined animSpeedLazy fadeInUp animDelay04 icon-descr animated">
+						<h3 class="text-center mg-md">
+							Beautiful&nbsp;
+						</h3>
+						<p class="text-center">
+							Awesome!
+						</p>
+					</div>
+				</cmsblock>
 			</div>
 			<div class="col-sm-4">
 				<div class="text-center">
 					<span class="ion ion-android-time icon-round icon-md puffIn animDelay04 animated"></span>
 				</div>
-				<div>
-					{% content 'feature-6.htm' %}
-				</div>
+				<cmsblock class="october-cms-block">
+					<div class="undefined animDelay06 fadeInUp animSpeedLazy icon-descr animated">
+						<h3 class="text-center mg-md">
+							Speedy
+						</h3>
+						<p class="text-center">
+							Your website will be done within two weeks - for every week after, your price goes down by 10%*
+						</p>
+					</div>
+				</cmsblock>
 			</div>
 		</div>
 	</div>
@@ -130,7 +192,7 @@ description = "Home"
 	<div class="container bloc-xl">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="{{ 'assets/images/gear-1.png'|theme }}" class="img-responsive img-circle gear" width="121" /><img src="{{ 'assets/images/gear-2.png'|theme }}" class="img-responsive img-circle gear pull-right" width="215" />
+				<img src="img/gear-1.png" class="img-responsive img-circle gear" width="121" /><img src="img/gear-2.png" class="img-responsive img-circle gear pull-right" width="215" />
 			</div>
 		</div>
 	</div>
@@ -146,7 +208,7 @@ description = "Home"
 					Effective
 				</h1>
 				<p class=" text-center">
-					My websites will be clean, easy to understand, and efficient. Visitors to your site will understand you exactly.&nbsp;<br>
+					My websites will be clean, easy to understand, and efficient. Your site visitors will understand you exactly.&nbsp;<br>
 				</p>
 			</div>
 		</div>
@@ -159,7 +221,7 @@ description = "Home"
 	<div class="container bloc-xl">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="{{ 'assets/images/gear-1.png'|theme }}" class="img-responsive img-circle gear mg-md" width="162" />
+				<img src="img/gear-1.png" class="img-responsive img-circle gear mg-md" width="162" />
 			</div>
 		</div>
 	</div>
@@ -190,7 +252,7 @@ description = "Home"
 					</ol>
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="{{ 'assets/images/desk-equipment.jpg'|theme }}" />
+							<img src="img/desk-equipment.jpg" />
 							<div class="carousel-caption">
 								<h2 class="mg-md ">
 									Heading content
@@ -201,7 +263,7 @@ description = "Home"
 							</div>
 						</div>
 						<div class="item">
-							<img src="{{ 'assets/images/mountains.jpg'|theme }}" />
+							<img src="img/mountains.jpg" />
 							<div class="carousel-caption">
 								<h2 class="mg-md ">
 									TinyHouse.com
@@ -212,7 +274,7 @@ description = "Home"
 							</div>
 						</div>
 						<div class="item">
-							<img src="{{ 'assets/images/mountainsdusk.jpg'|theme }}" />
+							<img src="img/mountainsdusk.jpg" />
 							<div class="carousel-caption">
 								<h2 class="mg-md ">
 									Heading content
@@ -235,7 +297,7 @@ description = "Home"
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<a href="{{ 'pricing'|page }}" class="btn btn-lg pulse-hvr press-start btn-clean btn-ufo-green animated">Begin<br></a>
+				<a href="pricing.html" class="btn btn-lg pulse-hvr press-start btn-clean btn-ufo-green animated">Begin<br></a>
 			</div>
 		</div>
 	</div>
@@ -247,7 +309,7 @@ description = "Home"
 	<div class="container bloc-md">
 		<div class="row border-top-thin">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 col-sm-12">
-				<img src="{{ 'assets/images/Caleb.jpeg'|theme }}" class="img-circle face img-responsive center-block" height="83" width="85" />
+				<img src="img/Caleb.jpeg" class="img-circle face img-responsive center-block" height="83" width="85" />
 				<h1 class="mg-md text-center">
 					Caleb Bertrand
 				</h1>
@@ -305,5 +367,51 @@ description = "Home"
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
-{% partial "footer" %}
 
+<!-- Footer - bloc-12 -->
+<div class="bloc bgc-languid-lavender l-bloc" id="bloc-12">
+	<div class="container bloc-sm">
+		<div class="row bgc-languid-lavender">
+			<div class="col-sm-12 col-md-6 col-md-offset-3">
+				<div class="col-xs-3">
+					<div class="text-center">
+						<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="text-center">
+						<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="text-center">
+						<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+					</div>
+				</div>
+				<div class="col-xs-3">
+					<div class="text-center">
+						<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-12 END -->
+
+</div>
+<!-- Main container END -->
+    
+<script>
+  	var $cog = $('.gear'),
+    $body = $(document.body),
+    bodyHeight = $body.height();
+
+	$(window).scroll(function () {
+    	$cog.css({
+    	    'transform': 'rotate(' + ($body.scrollTop() / bodyHeight * 1000) + 'deg)'
+    	});
+	});
+  </script>
+</body>
+</html>
