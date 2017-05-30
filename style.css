@@ -169,7 +169,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 52px;
 }
 #bloc-5 p{
-	font-size: 26px;
+	font-size: 24.999998092651367px;
 }
 #bloc-7 h2{
 	font-size: 40px;
@@ -712,6 +712,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	box-shadow:0px 0px 25px rgba(0,0,0,0.6);
 	padding:35px 35px 35px 35px;
 	background-color:#E5E5E5;
+}
+.pricing-features{
+	height:271px;
 }
 
 /* = Colour
