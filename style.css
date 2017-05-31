@@ -156,6 +156,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
 }
+
+/* Row Margin Offsets */
+
+.voffset{
+	margin-top:30px;
+}
 /* Dividers */
 
 .b-divider{
@@ -171,10 +177,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-5 p{
 	font-size: 24.999998092651367px;
 }
-#bloc-7 h2{
-	font-size: 40px;
+#bloc-7 h1{
+	font-size: 46px;
 }
-#bloc-13 p{
+#bloc-17 p{
 	font-size: 17.000000953674316px;
 }
 
@@ -355,12 +361,6 @@ button{
 	outline: none!important;
 }
 
-.btn-clean{
-	border:1px solid rgba(0,0,0,.08);
-	border-bottom-color:rgba(0,0,0,.1);
-	text-shadow:0 1px 0 rgba(0,0,1,.1);
-	box-shadow: 0 1px 3px rgba(0,0,1,.25), inset 0 1px 0 0 rgba(255,255,255,.15);
-}
 .btn-wire{
 	background:transparent!important;
 	border:2px solid transparent;
@@ -381,6 +381,9 @@ button{
 
 /* = Icons
 -------------------------------------------------------------- */
+.icon-sm{
+	font-size:18px!important;
+}
 .icon-md{
 	font-size:30px!important;
 }
@@ -441,43 +444,6 @@ button{
 
 iframe{
 	border:0;
-}
-/* = Carousel
--------------------------------------------------------------- */
-
-.carousel{
-	display:inline-block;
-	vertical-align:bottom;
-}
-.full-width-bloc .carousel{
-	width:100%;
-}
-.carousel .item img{
-	margin-right:auto;
-	margin-left:auto;
-}
-.carousel-control span{
-	position: absolute;
-	top: 50%;
-	z-index: 5;
-	display: inline-block;
-}
-.carousel-control{
-	color:#FFF!important;
-	text-shadow: none;
-}
-.carousel-indicators li{
-	margin: 0 4px;
-}
-.carousel-indicators .active{
-	margin: 0 4px -1px;
-}
-.carousel-control.left span{
-	margin-left:-15px;
-}
-
-.no-shadows .carousel-control.left, .no-shadows .carousel-control.right{
-	background-image: none;
 }
 
 
@@ -596,9 +562,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:36px;
 	color:rgba(255,255,255,0.9)!important;
 }
-.full-height{
-	height:0px;
-}
 .device-bloc-text-vc{
 	font-size:50px;
 	margin-top:50%;
@@ -676,9 +639,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:90px;
 }
 .press-start{
-	width:43%;
+	width:35%;
 	font-size:75px;
-	box-shadow:0px 0px 7px #A2A2A2;
+	background-color:rgba(162,162,162,0.0);
+}
+.press-start:hover{
+	background-color:#D2D2D2;
 }
 .icon{
 	margin-right:14px;
@@ -716,17 +682,39 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .pricing-features{
 	height:271px;
 }
+.navbar{
+	padding-top:6px;
+}
+.stat-bloc-text{
+	font-size:44px;
+	text-align:center;
+	font-weight:bold;
+}
+.stat-bloc-sub-text{
+	font-size:16px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.icon-padding-top{
+	padding-top:8px;
+}
+.tiny-footer{
+	padding-top:10px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
 /* Background colour styles */
 
-.bgc-white-smoke{
-	background-color:#F7F6F6;
+.bgc-lavender-web{
+	background-color:#E1DDF7;
 }
 .bgc-languid-lavender{
 	background-color:#D3CDE0;
+}
+.bgc-white-smoke{
+	background-color:#F7F6F6;
 }
 /* Text colour styles */
 
@@ -735,17 +723,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Button colour styles */
 
-.btn-ufo-green{
-	background:#26CE5C;
-	color:#FFFFFF!important;
-}
-.btn-ufo-green:hover{
-	background:#1ea54a;
-	color:#FFFFFF!important;
-}
 .wire-btn-white-smoke{
 	color:#F7F6F6!important;
 	border-color:#F7F6F6!important;
+}
+.wire-btn-ufo-green{
+	color:#26CE5C!important;
+	border-color:#26CE5C!important;
 }
 /* Link colour styles */
 
@@ -758,11 +742,26 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
+.bg-forrest{
+	background-image:url("img/forrest.jpg");
+}
+.bg-valley{
+	background-image:url("img/valley.jpg");
+}
+.bg-forrest{
+	background-image:url("img/forrest.jpg");
+}
 .bg-1234510-hong-kong{
 	background-image:url("img/1234510-hong-kong.jpg");
 }
 .bg-1234510-hong-kong{
 	background-image:url("img/1234510-hong-kong.jpg");
+}
+.bg-forrest{
+	background-image:url('img/forrest.jpg');
+}
+.bg-valley{
+	background-image:url('img/valley.jpg');
 }
 
 
@@ -1175,6 +1174,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-color:rgba(0,0,0,0.0);
 	background-color:rgba(0,0,0,0.0);
 	color:#000000!important;
+}
+.bloc-mob-center-text{
+	text-align:center;
 }
  }
 
