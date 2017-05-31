@@ -739,6 +739,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-white-smoke:hover{
 	color:#c6c5c5!important;
 }
+.ltc-bleu-de-france{
+	color:#3F8EFF!important;
+}
+.ltc-bleu-de-france:hover{
+	color:#3272cc!important;
+}
 
 /* Bloc image backgrounds */
 
@@ -758,10 +764,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/1234510-hong-kong.jpg");
 }
 .bg-forrest{
-	background-image:url('img/forrest.jpg');
+	background-image:url("img/forrest.jpg");
 }
 .bg-valley{
-	background-image:url('img/valley.jpg');
+	background-image:url("img/valley.jpg");
 }
 
 
