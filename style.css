@@ -707,14 +707,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Background colour styles */
 
-.bgc-lavender-web{
-	background-color:#E1DDF7;
-}
-.bgc-languid-lavender{
-	background-color:#D3CDE0;
-}
 .bgc-white-smoke{
 	background-color:#F7F6F6;
+}
+.bgc-pale-lavender{
+	background-color:#DED9F0;
 }
 /* Text colour styles */
 
