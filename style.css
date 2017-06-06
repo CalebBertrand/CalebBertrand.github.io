@@ -820,13 +820,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-image:url("img/valley.jpg");
 }
 .bg-forrest{
-	background-image:url('img/forrest.jpg');
+	background-image:url("img/forrest.jpg");
+}
+.bg-walkway{
+	background-image:url("img/walkway.jpg");
+}
+.bg-valley{
+	background-image:url("img/valley.jpg");
 }
 .bg-walkway{
 	background-image:url('img/walkway.jpg');
-}
-.bg-valley{
-	background-image:url('img/valley.jpg');
 }
 
 
