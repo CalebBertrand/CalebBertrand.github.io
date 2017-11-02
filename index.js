@@ -29,8 +29,7 @@ $(function() {
 		manageDevice();	
 	});
 	if (window.innerWidth > 786) {
-		$('.video img').hide();
-		$('.video').append('<video class="video" preload="auto" loop="loop" autoplay="autoplay"><source src="vid/save_as.mp4" type="video/mp4"></video>');
+		// $('.video').append('<video class="video" preload="auto" loop="loop" autoplay="autoplay"><source src="vid/save_as.mp4" type="video/mp4"></video>');
 	}
 
 	//Append a clear div at the end of each section, so the sections expand to hold the floated elements

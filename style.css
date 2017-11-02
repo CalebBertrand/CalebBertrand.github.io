@@ -12,7 +12,10 @@ h2, h3, h4, h5, h6 {
 }
 #hero {
   	width: 100%;
-  	background-color: transparent;
+  	/*background-color: transparent;*/
+  	background-image: url("imgs/save_as.jpg");
+	background-position: center;
+	background-size: cover;
 }
 .video {
 	width: auto;
@@ -36,6 +39,9 @@ h2, h3, h4, h5, h6 {
 
 .green {
 	color: #3ce28e;
+}
+.bigger {
+	font-size: 1.2em;
 }
 
 #hero-nav {
@@ -180,8 +186,13 @@ h2, h3, h4, h5, h6 {
 	float: left;
 }
 #contact-info {
-	width: 50%;
+	 padding: 15px 45px 15px 45px;
+	 width:50%;
+}
+#contact-info * {
+	width: 100%;
 	padding: 15px;
+	text-align: center;
 }
 #contact-info > h3 {
 	font-size: 20px;
@@ -191,16 +202,33 @@ h2, h3, h4, h5, h6 {
 }
 #contact-info > a {
 	text-decoration: none;
-	color: white;
-	background-color: #3ce28e;
-	padding: 10px;
-	transition: background-color 0.2s linear;
-	display: block;
-	text-align: center;
-	max-width: 135px;
+	padding: 12px;
+	-webkit-transition: all .25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all .25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    display: inline-block;
+	margin: auto;
+	font-size: 42px;
+	z-index: 1;
+	color: #222;
+	position: relative;
 }
 #contact-info > a:hover {
-	background-color: #41f299;
+	color: white;
+}
+#contact-info > a:after {
+	background-color: #3ce28e;
+	z-index: -1;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	content: "";
+	height: 5px;
+	-webkit-transition: all .25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all .25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+#contact-info > a:hover:after {
+	height: 100%;
 }
 
 #contact-form {
