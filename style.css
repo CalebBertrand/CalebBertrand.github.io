@@ -12,19 +12,21 @@ h2, h3, h4, h5, h6 {
 }
 #hero {
   	width: 100%;
-  	/*background-color: transparent;*/
-  	background-image: url("imgs/save_as.jpg");
-	background-position: center;
-	background-size: cover;
 }
 .video {
-	width: auto;
-	height: auto;
-	z-index: -1;
+	min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+	z-index: -100;
 	padding: 0;
 	margin: 0;
 	position: absolute;
 	top: 0;
+	overflow: hidden;
+	background-image: url("imgs/save_as.jpg");
+	background-position: center;
+	background-size: cover;
 }
 .hero-centered {
 	margin: auto;
@@ -265,6 +267,16 @@ footer h6 {
 	#contact-form {
 		width: 55%;
 	}
+}
+@media screen and (max-device-width: 800px) {
+    #hero {
+        background-image: url("imgs/save_as.jpg");
+		background-position: center;
+		background-size: cover;
+    }
+    .video {
+        display: none;
+    }
 }
 @media only screen and (max-width : 725px) {
 	#contact-info {
