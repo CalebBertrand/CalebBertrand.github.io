@@ -1,471 +1,100 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-    
-	<link rel="stylesheet" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="./css/animate.min.css">
-	<link rel="stylesheet" href="./css/whiteHeader.css">
-	
-	<link rel="stylesheet" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" href="./css/et-line.min.css">
-	<link rel="stylesheet" href="./css/ionicons.min.css">
-	<link rel="stylesheet" href="./css/feather.min.css">
-	<link rel="stylesheet" href="./css/linecons.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/lazysizes.min.js" defer></script>
-	
-    <title>LAB Sites</title>
-
-    
-<!-- Google Analytics -->
- 
-<!-- Google Analytics END -->
-    
-</head>
-<body>
-<!-- Main container -->
-<div class="page-container">
-    
-<!-- bloc-1 -->
-<div class="bloc bloc-fill-screen b-divider bgc-dark-jungle-green bg-sanfran d-bloc" id="bloc-1">
-	<div class="container fill-bloc-top-edge">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<a class="navbar-brand ltc-white-smoke" href="index.html">L.A.B. Sites</a>
-				<h4 class="mg-md text-center tc-white-smoke hidden-sm hidden-xs">
-					Like. A. Boss.
-				</h4>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
+	<head>
+		<title>Caleb Bertrand</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
+	</head>
+	<body>
+		<div class="bloc windowHeight" id="hero">
+			<div class="video"> <!-- Is replaced with video on larger screens in index.js -->
+				<img src="imgs/save_as.jpg" width="auto" height="auto">
 			</div>
-			<div class="navbar-collapse navbar-1 nav-special fullscreen-nav collapse">
-				<ul class="site-navigation nav navbar-nav pull-right">
-					<li>
-						<a href="index.html" class="ltc-white-smoke">Home</a>
-					</li>
-					<li>
-						<a href="https://medium.com/@caleb.a.bertrand/starting-a-video-game-day-1-92fe846d7de0" class="ltc-white-smoke" id="pl-undefined" target="_blank">Blog</a>
-					</li>
-					<li>
-						<a href="pricing.html" class="ltc-white-smoke">Pricing</a>
-					</li>
+
+			<div class="hero-centered">
+				<h1>Hi, I'm Caleb. I build:</h1><h1 id="typing-txt"></h1>
+			</div>
+			<nav id="hero-nav">
+				<ul>
+					<li><a>Features</a></li>
+					<li><a>Sites</a></li>
+					<li><a>Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="section" id="features">
+			<h2>My Websites Are:</h2>
+			<div class="feature-holder">
+				<div class="icon">
+					<img src="imgs/responsive.png" width="100px" height="100px">
+					<h3>Responsive</h3>
+					<p>Sites look great no matter what screen resolution. (Try resizing this page)</p>
+				</div>
+				<div class="icon">
+					<img src="imgs/user.png" width="100px" height="100px">
+					<h3>Custom</h3>
+					<p>Totally ustom made.</p>
+				</div>
+				<div class="icon">
+					<img src="imgs/cms.png" width="100px" height="100px">
+					<h3>CMS Sites</h3>
+					<p>Sites are updatable even after launch, giving you more control over the content and look.</p>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="centered sites">
+				<div class="site" id="wildcraftGoods">
+					<component key=mdlrl class="desktop"></component>
+					<component key=rkakr class="tablet"></component>
+					<component key=obrbn class="phone"></component>
+				</div>
+				<div class="site" id="something">
+					<!-- <component key=lnloo class="desktop"></component> -->
+				</div>
+				<div class="centered">
+					<button type="button">Previous</button>
+					<a href="#"></a>
+					<button type="button">Next</button>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="skills">
+			<div  class="popout">
+				<h2>My Strong Points:</h2>
+				<ul>	
+					<li><h3 id="js">JS: <span>Jquery, Node, p5</span></h3></li>
+					<li><h3 id="html">HTML: <span>Canvas</span></h3></li>
+					<li><h3 id="css">CSS</h3></li>
+					<li><h3 id="php">PHP</h3></li>
+					<li><h3 id="sql">SQL</h3></li>
 				</ul>
 			</div>
-		</nav>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text">
-					Aww, Yes
-				</h1>
-				<h3 class="text-center mg-lg hero-bloc-text-sub">
-					Beautiful Sites For Everyone
-				</h3>
-				<div class="text-center">
-					<a href="pricing.html" id="retro-start" class="btn btn-xl begin btn-wire wire-btn-white-smoke">START<br><br></a>
-				</div>
-			</div>
 		</div>
-	</div>
-	<div class="container fill-bloc-bottom-edge">
-		<div class="row">
-			<div class="col-sm-12">
-				<a id="scroll-hero" class="blocs-hero-btn-dwn" href="#"><span class="fa fa-chevron-down"></span></a>
-			</div>
+		<div class="section" id="testimonial">
+			<blockquote>
+				"A great website" <br> – <span class="green">Anonymous</span>
+			</blockquote>
 		</div>
-	</div>
-</div>
-<!-- bloc-1 END -->
-
-<!-- bloc-2 -->
-<div class="bloc bgc-white-smoke l-bloc" id="bloc-2">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="text-center">
-					<span class="et-icon-mobile icon-round icon-md puffIn animDelay02 animated"></span>
-				</div>
-				<cmsblock class="october-cms-block">
-					<div class="animDelay04 undefined icon-descr fadeInUp animSpeedLazy animated">
-						<h3 class="text-center mg-md">
-							Responsive
-						</h3>
-						<p class="text-center">
-							Website awesomeness totally independent of device viewed on.
-						</p>
-					</div>
-				</cmsblock>
-			</div>
-			<div class="col-sm-4">
-				<div class="text-center">
-					<span class="et-icon-profile-male icon-round icon-md puffIn undefined animDelay04 animated"></span>
-				</div>
-				<cmsblock class="october-cms-block">
-					<div class="animDelay04 undefined icon-descr fadeInUp animSpeedLazy animated">
-						<h3 class="text-center mg-md">
-							Custom
-						</h3>
-						<p class="text-center">
-							Websites just how you like them.
-						</p>
-					</div>
-				</cmsblock>
-			</div>
-			<div class="col-sm-4">
-				<div class="text-center">
-					<span class="ion ion-mouse icon-round icon-md puffIn animDelay06 animated"></span>
-				</div>
-				<cmsblock class="october-cms-block">
-					<div class="animDelay08 undefined icon-descr fadeInUp animSpeedLazy animated">
-						<h3 class="text-center mg-md">
-							CMS Empowered
-						</h3>
-						<p class="text-center" data-placement="bottom" data-toggle="tooltip" title="With CMS Plan">
-							Edit your site whenerver you like, no endless client - developer emails.*
-						</p>
-					</div>
-				</cmsblock>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-2 END -->
-
-<!-- bloc-3 -->
-<div class="bloc bgc-white-smoke l-bloc" id="bloc-3">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="text-center">
-					<span class="fa fa-smile-o icon-round icon-md puffIn animated"></span>
-				</div>
-				<cmsblock class="october-cms-block">
-					<div class="animSpeedLazy fadeInUp animDelay02 icon-descr animated">
-						<h3 class="text-center mg-md">
-							Crazy Simple
-						</h3>
-						<p class="text-center">
-							I'll take care of your site domain and hosting.
-						</p>
-					</div>
-				</cmsblock>
-			</div>
-			<div class="col-sm-4">
-				<div class="text-center">
-					<span class="ion ion-ios-rose icon-round icon-md puffIn animDelay02 animated"></span>
-				</div>
-				<cmsblock class="october-cms-block">
-					<div class="undefined animSpeedLazy fadeInUp animDelay04 icon-descr animated">
-						<h3 class="text-center mg-md">
-							Beautiful&nbsp;
-						</h3>
-						<p class="text-center">
-							Awesome!
-						</p>
-					</div>
-				</cmsblock>
-			</div>
-			<div class="col-sm-4">
-				<div class="text-center">
-					<span class="ion ion-android-time icon-round icon-md puffIn animDelay04 animated"></span>
-				</div>
-				<cmsblock class="october-cms-block">
-					<div class="undefined animDelay06 fadeInUp animSpeedLazy icon-descr animated">
-						<h3 class="text-center mg-md">
-							Speedy
-						</h3>
-						<p class="text-center" data-placement="bottom" data-toggle="tooltip" title="Also depends on how fast I can get your content">
-							Your website will be done within two weeks - for every week after, your price goes down by 10%*
-						</p>
-					</div>
-				</cmsblock>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-3 END -->
-
-<!-- Bloc Group -->
-<div class='bloc-group'>
-
-<!-- bloc-4 -->
-<div class="bloc bloc-tile-4 hidden-sm hidden-xs bgc-white-smoke l-bloc" id="bloc-4">
-	<div class="container bloc-xl">
-		<div class="row padding-left">
-			<div class="col-sm-12">
-				<img src="img/lazyload-ph.png" data-src="img/WMF-Agora-Settings_808080.svg.png" class="img-responsive img-circle gear lazyload" width="121" /><img src="img/lazyload-ph.png" data-src="img/gear-2.png" class="img-responsive img-circle gear pull-right lazyload" width="215" />
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-4 END -->
-
-<!-- bloc-5 -->
-<div class="bloc bloc-tile-2 bgc-white-smoke l-bloc" id="bloc-5">
-	<div class="container bloc-xl">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="mg-md text-center ">
-					What I Do
-				</h1>
-				<p class=" text-center">
-					I make clean, understandable, static sites. If you want anything from a simple portfolio to a full fledged company site, I&rsquo;ve got you covered.
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-5 END -->
-
-<!-- bloc-6 -->
-<div class="bloc bloc-tile-4 hidden-sm hidden-xs bgc-white-smoke l-bloc" id="bloc-6">
-	<div class="container bloc-xl">
-		<div class="row">
-			<div class="col-sm-12">
-				<img src="img/lazyload-ph.png" data-src="img/WMF-Agora-Settings_808080.svg.png" class="img-responsive img-circle gear mg-md lazyload" width="162" />
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-6 END -->
-</div>
-<!-- Bloc Group END -->
-
-<!-- bloc-7 -->
-<div class="bloc bgc-white-smoke l-bloc" id="bloc-7">
-	<div class="container bloc-sm">
-		<div class="row bgc-white-smoke">
-			<div class="col-sm-12">
-				<h1 class="mg-md text-center  animDelay02 Up">
-					Some WebSites I&rsquo;ve Made:
-				</h1>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-7 END -->
-
-<!-- bloc-8 -->
-<div class="bloc website-desc bgc-white-smoke l-bloc" id="bloc-8">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="mg-md">
-					Pop&rsquo;sSite.what?
-				</h1>
+		<div class="section">
+			<h2>Ready For a Website?</h2>
+			<div class="sidebar" id="contact-info">
+				<h3>Take the survey, or just contact me:</h3>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLScXy6KSeMhWg0ErjRZ7QcSX8njoHcaaOFQS1lAsAMpc5dRmZA/viewform">Survey</a><h5>caleb.a.bertrand@gmail.com	</h5>
+				<h4><span class="green">(Webite Survey Submissions notify me automatically)</span></h4>
 				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+					If you would like to hire me for a project of some sort, or want to work with me, feel free to email me.
 				</p>
 			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-8 END -->
-
-<!-- bloc-9 -->
-<div class="bloc b-parallax bg-valley full-height bgc-white-smoke l-bloc" id="bloc-9">
-	<div class="container bloc-lg">
-	</div>
-</div>
-<!-- bloc-9 END -->
-
-<!-- bloc-10 -->
-<div class="bloc bgc-white-smoke l-bloc website-desc" id="bloc-10">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="mg-md">
-					TCF.church
-				</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-				</p>
+			<div class="sidebar" id="contact-form">
+				<component key=lnddn load=b width="100%"></component>
 			</div>
 		</div>
-	</div>
-</div>
-<!-- bloc-10 END -->
 
-<!-- bloc-11 -->
-<div class="bloc b-parallax bg-forrest bgc-white-smoke full-height l-bloc" id="bloc-11">
-	<div class="container bloc-lg">
-		<div class="row voffset">
-			<div class="col-sm-12">
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-11 END -->
-
-<!-- bloc-12 -->
-<div class="bloc bgc-white-smoke l-bloc" id="bloc-12">
-	<div class="container bloc-md">
-		<div class="row border-top-thin">
-			<div class="col-sm-12 text-center">
-				<a href="pricing.html" class="btn btn-wire btn-lg wire-btn-ufo-green press-start">Get Started<br></a>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-12 END -->
-
-<!-- bloc-13 -->
-<div class="bloc bgc-white-smoke l-bloc" id="bloc-13">
-	<div class="container bloc-md">
-		<div class="row border-top-thin">
-			<div class="col-xs-12 col-md-8 col-md-offset-2 col-sm-12">
-				<img src="img/lazyload-ph.png" data-src="img/Caleb.jpeg" class="img-circle face img-responsive center-block lazyload" height="83" width="85" />
-				<h1 class="mg-md text-center">
-					Caleb Bertrand
-				</h1>
-				<h3 class="statement-bloc-text">
-					Programmer and web developer, who&rsquo;s goal is to be a missionry in Hong Kong by 2020.&nbsp;
-				</h3>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-13 END -->
-
-<!-- bloc-14 -->
-<div class="bloc hidden-xs bgc-white-smoke l-bloc" id="bloc-14">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<span class="feather-icon icon-mail icon-round icon-md pull-left"></span>
-				<ul class="list-unstyled">
-					<li>
-						<h1 class="mg-md contact bold">
-							Email
-						</h1>
-						<h3 class="mg-md contact">
-							caleb.a.bertrand@gmail.com
-						</h3>
-					</li>
-					<li>
-						<span class="li_phone icon-round pull-left icon-md"></span>
-						<h1 class="mg-md text-left contact bold">
-							Phone
-						</h1>
-						<h3 class="mg-md contact">
-							Heading content
-						</h3><span class="fa fa-facebook-f icon-round pull-left icon-md"></span>
-					</li>
-					<li>
-						<h1 class="mg-md text-left contact bold">
-							Facebook
-						</h1>
-						<h3 class="mg-md contact">
-							Heading content
-						</h3>
-					</li>
-				</ul>
-			</div>
-			<div class="col-sm-6">
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-14 END -->
-
-<!-- bloc-15 -->
-<div class="bloc hidden-lg hidden-md hidden-sm bgc-white-smoke l-bloc" id="bloc-15">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<ul class="list-unstyled">
-					<li>
-						<h1 class="mg-md">
-							Email
-						</h1>
-						<h4 class="mg-md">
-							caleb.a.bertrand@gmail.com
-						</h4>
-					</li>
-					<li>
-						<h1 class="mg-md">
-							Phone
-						</h1>
-						<h4 class="mg-md">
-							Heading content
-						</h4>
-					</li>
-					<li>
-						<h1 class="mg-md">
-							FaceBook
-						</h1>
-						<h4 class="mg-md">
-							Heading content
-						</h4>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-15 END -->
-
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
-
-
-<!-- Footer - bloc-18 -->
-<div class="bloc bgc-pale-lavender tiny-footer l-bloc" id="bloc-18">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<span class="fa fa-heart pull-right icon-padding-top icon-sm"></span>
-				<h4 class="mg-md">
-					Site built by Caleb Bertrand&nbsp;
-				</h4>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Footer - bloc-18 END -->
-
-</div>
-<!-- Main container END -->
-    
-<script>
-	// turning gears:
-  	var $cog = $('.gear'),
-    $body = $(document.body),
-    bodyHeight = $body.height();
-	$(window).scroll(function () {
-    	$cog.css({
-    	    'transform': 'rotate(' + ($body.scrollTop() / bodyHeight * 1000) + 'deg)'
-    	});
-	});
-	// full-height elements
-	$(document).ready(function() {
-  		function setHeight() {
-    		windowHeight = $(window).innerHeight();
-    		if (windowHeight > $(window).innerWidth()) {
-  				$('.full-height').css('min-height', windowHeight*0.70);
-  			}else {
-    			$('.full-height').css('min-height', windowHeight*0.95);
-  			}
-  		};
-  		setHeight();
-  	
-  		$(window).resize(function() {
-    		setHeight();
-  		});
-	});
-  </script>
-</body>
+		<footer><h5>Website HandCoded with <img src="imgs/heart.png" width="12px" height="12px"> by Caleb Bertrand.</h5><h6>Icons by Freepik and Gregor Cresnar on FlatIcon</h6><div class="clear-both"></div></footer>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script> <!-- Typelt -->
+	<script type="text/javascript" src="index.js"></script>
+	<script project="86392P" src="https://cdn.component.io/v1"></script>
 </html>
