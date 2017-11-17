@@ -90,7 +90,6 @@ $(function() {
 		}
 		var currentSiteId = $( sites[ currentSiteIndex ] ).attr('id');
 		$('#' + currentSiteId + ' > component, #' + currentSiteId + ' > div').each(function(i, value) {
-			console.log(value)
 			if ($(value).hasClass(deviceClass)) {
 				$(value).show();
 			}else{
