@@ -24,7 +24,7 @@ $(function() {
 	$('.windowHeight').height(window.innerHeight);
 	$('.hero-centered').css('padding-top', window.innerHeight/4);
 	$(window).resize(function() {
-		$('.windowHeight').height(window.innerHeight);
+		// $('.windowHeight').height(window.innerHeight);  This caused problems with iphone 5
 		$('.hero-centered').css('padding-top', window.innerHeight/4);	
 		manageDevice();	
 	});
