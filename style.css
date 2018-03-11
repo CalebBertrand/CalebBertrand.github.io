@@ -43,7 +43,7 @@ h2, h3, h4, h5, h6 {
 	color: #3ce28e;
 }
 .bigger {
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 #hero-nav {
@@ -265,20 +265,24 @@ footer h6 {
 }
 
 /* Desktops and laptops ----------- */
-@media only screen  and (max-width : 1224px) {
+@media only screen  and (max-width : 1030px) {
 	
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (max-width : 1024px) {
+	#call-to-action, #contact-form {
+		width: 100%;
+	}
+
 	.hero-centered > * {
 		font-size: 35px;
 	}
-	#contact-info {
+	/* #call-to-action {
 		width: 45%;
 	}
 	#contact-form {
 		width: 55%;
-	}
+	} */
 }
 @media screen and (max-device-width: 800px) {
     #hero {
@@ -288,14 +292,14 @@ footer h6 {
     }
     .video {
         display: none;
-    }
-}
-@media only screen and (max-width : 725px) {
-	#contact-info {
+	}
+	#contact-form, #contact-info {
 		width: 100%;
 	}
-	#contact-form {
-		width: 100%;
+}
+@media only screen and (max-width : 725px) {
+	#contact-info * {
+		text-align: center;
 	}
 }
 /* Smartphones (portrait and landscape) ----------- */

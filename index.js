@@ -6,6 +6,10 @@ $(function() {
 	};
 
 	var mobile = window.mobileAndTabletcheck();
+
+	if (mobile) {
+		$('.hero-centered > h1, #features, #sites, #contact').addClass('bigger');
+	}
 	
 	$('#typing-txt').typeIt({
 	 	speed: 100,
