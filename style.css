@@ -187,22 +187,22 @@ h2, h3, h4, h5, h6 {
 .sidebar {
 	float: left;
 }
-#contact-info {
+#call-to-action {
 	 padding: 15px 45px 15px 45px;
 	 width:50%;
 }
-#contact-info * {
+#call-to-action * {
 	width: 100%;
 	padding: 15px;
 	text-align: center;
 }
-#contact-info > h3 {
+#call-to-action > h3 {
 	font-size: 20px;
 }
-#contact-info > p {
+#call-to-action > p {
 	font-size: 18px;
 }
-#contact-info > a {
+#call-to-action > a {
 	text-decoration: none;
 	padding: 12px;
 	-webkit-transition: all .25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -214,10 +214,10 @@ h2, h3, h4, h5, h6 {
 	color: #222;
 	position: relative;
 }
-#contact-info > a:hover {
+#call-to-action > a:hover {
 	color: white;
 }
-#contact-info > a:after {
+#call-to-action > a:after {
 	background-color: #3ce28e;
 	z-index: -1;
 	position: absolute;
@@ -229,7 +229,7 @@ h2, h3, h4, h5, h6 {
 	-webkit-transition: all .25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all .25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-#contact-info > a:hover:after {
+#call-to-action > a:hover:after {
 	height: 100%;
 }
 
@@ -250,6 +250,18 @@ footer h5 {
 }
 footer h6 {
 	float: right;
+}
+
+#contact-info {
+	padding-left: 2%;
+}
+#contact-info * {
+	text-align: left;
+}
+
+#contact-info h3 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	padding: 4px;
 }
 
 /* Desktops and laptops ----------- */

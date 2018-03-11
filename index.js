@@ -65,7 +65,7 @@ $(function() {
 	});
 
 	//skills stats animations:
-	var stats = [95, 88, 79, 45, 30];
+	var stats = [95, 88, 79, 45, 45, 45, 20];
 	var statsHasAnimated = false;
 	$('#skills li h3').append('<div></div>');
 
