@@ -53,11 +53,16 @@ $(function() {
 	$('.section, .popout').append('<div class="clear-both"></div>');
 	
 	var navHeight = $('#hero-nav').height();
+	var heroHeight = $('#hero').height();
 	$(window).scroll(function() {
-		if ($(window).scrollTop() > $('#hero').height() - navHeight) {
-			$('#hero-nav').css({'position': 'fixed', 'top': '0', 'bottom': 'auto'});
+		if ($(window).scrollTop() > heroHeight - navHeight) {
+			$('#hero-nav').css({ 'position': 'fixed', 'top': '0', 'bottom': 'auto' });
 		}else{
-			$('#hero-nav').css({'position': 'absolute', 'bottom': '0', 'top': 'auto'});
+			if(heroHeight + navHeight > window.innerHeight && mobile) {
+				$('#hero-nav').css({ 'position': 'fixed', 'top': 'auto', 'bottom': '0' });
+			}else {
+				$('#hero-nav').css({'position': 'absolute', 'bottom': '0', 'top': 'auto'});
+			}
 		}
 
 		if (!statsHasAnimated) {
