@@ -54,14 +54,15 @@ $(function() {
 	
 	var navHeight = $('#hero-nav').height();
 	var heroHeight = $('#hero').height();
+	var offset = $('#hero').height() - $('#hero-nav').height();
 	$(window).scroll(function() {
-		if ($(window).scrollTop() > heroHeight - navHeight) {
+		if ($(window).scrollTop() > offset) {
 			$('#hero-nav').css({ 'position': 'fixed', 'top': '0', 'bottom': 'auto' });
 		}else{
-			if(heroHeight + navHeight > window.innerHeight && mobile) {
+			if ($(window).scrollTop() + window.innerHeight < offset && offset > window.innerHeight && mobile) {
 				$('#hero-nav').css({ 'position': 'fixed', 'top': 'auto', 'bottom': '0' });
 			}else {
-				$('#hero-nav').css({'position': 'absolute', 'bottom': '0', 'top': 'auto'});
+				$('#hero-nav').css({'position': 'absolute', 'top': $('#hero').height() - navHeight});
 			}
 		}
 
