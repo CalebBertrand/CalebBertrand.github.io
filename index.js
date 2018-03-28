@@ -8,7 +8,8 @@ $(function() {
 	var mobile = window.mobileAndTabletcheck();
 
 	if (mobile) {
-		$('.hero-centered > h1, #features, #sites, #contact').addClass('bigger');
+		$('#features, #sites, #contact, #hero-nav > ul > li > a').css('font-size', '2em');
+		$('.hero-centered > h1').css('font-size', '3em');
 	}
 	
 	$('#typing-txt').typeIt({
@@ -52,7 +53,7 @@ $(function() {
 	
 	var navHeight = $('#hero-nav').height();
 	$(window).scroll(function() {
-		if ($(window).scrollTop() > window.innerHeight - navHeight) {
+		if ($(window).scrollTop() > $('#hero').height() - navHeight) {
 			$('#hero-nav').css({'position': 'fixed', 'top': '0', 'bottom': 'auto'});
 		}else{
 			$('#hero-nav').css({'position': 'absolute', 'bottom': '0', 'top': 'auto'});
