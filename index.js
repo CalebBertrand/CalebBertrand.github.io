@@ -8,7 +8,7 @@ $(function() {
 	var mobile = window.mobileAndTabletcheck();
 
 	if (mobile) {
-		$('#contact-info *').css({'font-size': '1.6em', 'text-align': 'center'});
+		$('#contact-info *').css('font-size', '1.3em');
 		$('#hero-nav > ul > li > a').css('font-size', '2em');
 		$('.hero-centered > h1').css('font-size', '3em');
 	}
