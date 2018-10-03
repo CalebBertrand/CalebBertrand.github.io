@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Caleb Bertrand</title>
+		<meta name="description" content="Caleb Bertrand">
+		<meta name="author" content="Caleb Bertrand">
+		<meta name="keywords" content="Make, Build, Website, Web, Site">
+		<meta name="viewport" content="width=device-width, initial-scale=0.85">
+		<link rel = "stylesheet" type = "text/css" href = "style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+		<link rel="stylesheet" type="text/css" href="tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css" />
+
+		<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script> <!-- Typelt -->
+		<script type="text/javascript" src="index.js"></script>
+		<script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('.tooltip').tooltipster({
+					trigger: 'hover',
+					side: 'bottom',
+					theme: 'tooltipster-borderless',
+					interactive: true,
+					maxWidth: 275
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="thirdWindowHeight vertical-center-children" id="hero">
+			<div class="hero-centered">
+				<h1 class="centered">Pricing Plans</h1>
+			</div>
+			<nav id="hero-nav">
+				<ul>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#sites">Sites</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="section" id="features">
+				<div class="icon">
+					<div class="popout">
+						<h2>Landing Page <span class="smaller badge grey">$800</span></h2>
+						<div class="list">
+							<p class="bigger">
+								Custom Made
+							</p>
+							<p class="bigger tooltip" title="Websites look great on all screen resolutions. I can garuntee support for any devices made in the last three years.">
+								Responsive <span class="green">*</span>
+							</p>
+							<p class="bigger tooltip" title="A revision is one iteration of the site building process, in which you tell me what you want, I build it, and we evaluate. It typically takes only five revisions of a site to finish one, but if you want more, I will charge $100 for each additional revision.">
+								Five Revisions <span class="green">*</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="icon">
+					<div class="popout">
+						<h2>Full Site <span class="smaller badge grey">$1000</span></h2>
+						<h3 class="bigger">
+							<span class="badge green">All Landing Page Features</span>
+						</h3>
+						<div class="list">
+							<p class="bigger">
+								Multiple Pages
+							</p>
+							<p class="bigger tooltip" title="Basic web services include Google services and a few others. See below for more info.">
+								Basic Web Services <span class="green">*</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="icon">
+					<div class="popout">
+						<h2>Deluxe Site <span class="smaller badge grey">Contact</span></h2>
+						<h3 class="bigger">
+							<span class="badge green">All Full Site Features</span>
+						</h3>
+						<div class="list">
+							<p class="bigger tooltip" title="Designate sections of your site that you want to be able to edit anytime. Then just go to your site, sign in, click on the content, and start editing.">
+								Dynamic <span class="green">*</span>
+							</p>
+							<p class="bigger tooltip" title="Fancy stuff. Modules integrating hundreds of services, including MailChimp, reCaptcha, Twitter, Instagram, etc.">
+								Advanced Web Services <span class="green">*</span>
+							</p>
+						</div>
+					</div>
+				</div>
+		</div>
+		<!-- <div class="section margin-top" id="sites">
+			<div class="centered sites">
+				<div class="site" id="wildcraftGoods">
+					<component key=mdlrl class="desktop"></component>
+					<component key=rkakr class="tablet"></component>
+					<component key=obrbn class="phone"></component>
+				</div>
+				<div class="site" id="something">
+					<component key=lnloo class="desktop"></component>
+				</div>
+				<div class="centered">
+					<button type="button">Previous</button>
+					<a href="#"></a>
+					<button type="button">Next</button>
+				</div>
+			</div>
+		</div>
+		<div class="section margin-top" id="skills">
+			<div  class="popout">
+				<h2>My Strong Points:</h2>
+				<ul>	
+					<li><h3 id="js">JS: <span>Jquery, Node, p5, Gulp</span></h3></li>
+					<li><h3 id="html">HTML: <span>Canvas, Twig</span></h3></li>
+					<li><h3 id="css">CSS: <span>Sass</span></h3></li>
+					<li><h3 id="php">C++, C#, PHP</h3></li>
+				</ul>
+			</div>
+		</div> -->
+		<div class="section margin-top" id="testimonial">
+			<blockquote>
+				"A great website" <br> – <span class="green">Anonymous</span>
+			</blockquote>
+		</div>
+		<div class="section windowHeight vertical-center-children" id="contact">
+			<div class="centered">
+				<h1>Convinced?</h1>
+				<div id="contact-info">
+					<a href="">PRICING</a>
+					<a href="">CONTACT</a>
+				</div>
+				<h2> </h2>
+			</div>
+		</div>
+
+		<footer><h5>Website HandCoded with <img src="imgs/heart.png" width="12px" height="12px"> by Caleb Bertrand.</h5><h6>Icons by Freepik and Gregor Cresnar on FlatIcon</h6><div class="clear-both"></div></footer>
+	</body>
+	<!-- <script project="86392P" src="https://cdn.component.io/v1"></script> -->
+</html>
