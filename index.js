@@ -22,11 +22,11 @@ $(function() {
 	.tiPause(650);
 
 	$('.windowHeight').height(window.innerHeight);
+	$('.halfHeight').css("min-height", window.innerHeight / 2);
 	$('.thirdWindowHeight').height(window.innerHeight/3);
 	// $('.hero-centered').css('padding-top', $(this).height()/4);
 	$(window).resize(function() {
 		$('.windowHeight, fullscreen').height(window.innerHeight);
-		$('.thirdWindowHeight').height(window.innerHeight / 3);
 		// $('.hero-centered').css('padding-top', window.innerHeight/4);	
 		manageDevice();	
 	});
@@ -67,7 +67,7 @@ $(function() {
 	});
 
 	//skills stats animations:
-	var stats = [95, 88, 79, 25];
+	var stats = [95, 88, 79, 35];
 	var statsHasAnimated = false;
 	$('#skills li h3').append('<div></div>');
 

@@ -26,6 +26,11 @@ span {
 	vertical-align: middle;
 }
 
+.padsideslight {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .centered {
 	margin: auto;
 	text-align: center;
@@ -97,7 +102,7 @@ span {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #2f2f2f;
+	background-color: #363636;
 }
 
 #hero-nav>ul * {
@@ -259,11 +264,15 @@ button.green:hover {
 }
 
 #testimonial {
-	background-color: #f3f3f3;
+	color: #f3f3f3;
+	background-image: url(imgs/save_as.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
 	min-height: 250px;
 }
 
-#testimonial>blockquote {
+#testimonial blockquote {
 	text-align: center;
 	font-size: 24px;
 	padding: 45px;
@@ -272,6 +281,7 @@ button.green:hover {
 
 .sidebar {
 	float: left;
+	width: 50%;
 }
 
 #contact-info {
@@ -314,18 +324,42 @@ button.green:hover {
 	transition: all .25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+#contact {
+	background-color: #363636;
+	color: #f3f3f3;
+}
+
+#contact * {
+	color: #f3f3f3;
+}
+
 #contact-info>a:hover:after {
 	height: 100%;
 }
 
+.services>.sidebar {
+	padding: 5px 5%;
+}
+
+#map {
+	border-radius: 5px;
+	width: 85%;
+}
+
+#dynamic {
+	max-width: 500px;
+	margin: auto;
+}
+
 footer {
-	background-color: #e1e1e1;
+	background-color: #363636;
+	color: #f3f3f3;
 }
 
 footer h5, footer h6 {
 	padding: 0px 12px 0px 12px;
 	margin: 5px;
-	color: #3f3f3f;
+	color: #f3f3f3;
 }
 
 footer h5 {
@@ -364,11 +398,8 @@ footer h6 {
 }
 
 @media only screen and (max-width: 725px) {
-	#contact-info a {
+	#contact-info a, .sidebar, #skills .popout {
 		width: 100%;
-		.icon {
-			width: 100%;
-		}
 	}
 	/* Smartphones (portrait and landscape) ----------- */
 	@media only screen and (max-width: 580px) {
@@ -379,7 +410,11 @@ footer h6 {
 			padding: 5px;
 			width: 100%;
 		}
+		#skills {
+			display: none;
+		}
 		footer h6 {
 			float: left;
 		}
 	}
+}
