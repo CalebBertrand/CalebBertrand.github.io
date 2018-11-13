@@ -52,13 +52,13 @@ $(function() {
 				});
 			}
 		}
-
-		if ($(window).scrollTop() > $('#skills').offset().top) {
+		
+		if ($(window).scrollTop() + window.innerHeight / 2 > $('#testimonial').offset().top) {
 			if (!quotesHasAnimated) {
 				$('#testimonial > blockquote').fadeIn();
 				quotesHasAnimated = true;
 			}
-		} else if ($(window).scrollTop() < $('#skills').offset().top - window.innerHeight/2) {
+		} else if ($(window).scrollTop() + window.innerHeight / 2 < $('#testimonial').offset().top) {
 			if (quotesHasAnimated) {
 				$('#testimonial > blockquote').fadeOut();
 				quotesHasAnimated = false;
@@ -67,7 +67,7 @@ $(function() {
 	});
 
 	//skills stats animations:
-	var stats = [95, 88, 79, 35];
+	var stats = [95, 88, 79, 40];
 	var statsHasAnimated = false;
 	$('#skills li h3').append('<div></div>');
 
