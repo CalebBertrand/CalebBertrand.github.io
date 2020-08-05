@@ -26,6 +26,11 @@ span {
 	vertical-align: middle;
 }
 
+span a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
 .padsideslight {
 	padding-left: 10px;
 	padding-right: 10px;
