@@ -1,0 +1,18 @@
+.menu {
+    position: relative;
+    .cell {
+        padding: 20px;
+        cursor: pointer;
+        h3 {
+            margin: auto;
+            letter-spacing: 2px;
+            @include textShadow(rgba(0, 0, 0, 0.65), 8px);
+        }
+
+        background-color: $dark-gray;
+        transition: background-color 0.25s;
+        &:hover {
+            background-color: darken(map-get($foundation-palette, 'secondary'), 10%);
+        }
+    }
+}

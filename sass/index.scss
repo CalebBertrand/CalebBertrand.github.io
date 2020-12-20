@@ -1,0 +1,11 @@
+@import 'settings'; // https://get.foundation/sites/docs/sass.html
+
+@import '../node_modules/foundation-sites/scss/foundation';
+@include foundation-everything;
+
+@import 'modules/mixins';
+@import 'modules/base';
+
+@import 'sections/hero';
+@import 'sections/nav-bar';
+@import 'sections/stack';

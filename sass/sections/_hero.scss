@@ -1,0 +1,16 @@
+#hero {
+    @include backgroundImage('../assets/imgs/save_as.jpg', rgba(0, 0, 0, 0.75));
+    background-attachment: fixed;
+}
+
+#intro {
+    font-size: 50px;
+    text-align: center;
+    visibility: collapse;
+    @include textShadow($shadow-color);
+
+    @include breakpoint(medium down) {
+        font-size: 35px;
+        width: 85%;
+    }
+}

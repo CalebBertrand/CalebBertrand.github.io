@@ -1,0 +1,27 @@
+@mixin backgroundImage($img, $gradient-color:null, $gradient-opacity:0.6, $gradient-direction:to bottom) {
+    background-image: url($img);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    @if $gradient-color {
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient($gradient-direction, #ffffff00, $gradient-color);
+            opacity: $gradient-opacity; 
+        }
+        position: relative;
+    }
+}
+
+@mixin textShadow($color:rgba(0, 0, 0, 0.35), $radius:6px) {
+    text-shadow: 0 0 $radius $color;
+}
+
+@mixin boxShadow($color:rgba(0, 0, 0, 0.35), $radius:6px) {
+    box-shadow: 0 0 ($radius * 3) $radius $color;
+}

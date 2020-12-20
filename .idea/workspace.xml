@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="654c6c10-247e-42e6-994e-691e41e5780f" name="Default Changelist" comment="Resume Button Added">
+      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/utils/onScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caleb_Bertrand_Resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/cms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/dynamic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/responsive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/save_as.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-noir.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/css/tooltipster.bundle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/css/tooltipster.bundle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/css/tooltipster.main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/css/tooltipster.main.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/js/plugins/tooltipster/SVG/tooltipster-SVG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/js/plugins/tooltipster/SVG/tooltipster-SVG.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/js/tooltipster.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/js/tooltipster.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/js/tooltipster.main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/dist/js/tooltipster.main.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tooltipster/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vid/Save_As.ogv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vid/save_as.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vid/save_as.webm" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lOHNMIOqCinkDSp3nNGTVByKqQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.9" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\caleb\OneDrive\Desktop\Calebbertrand.github.io\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\caleb\OneDrive\Desktop\Calebbertrand.github.io" />
+      <recent name="C:\Users\caleb\OneDrive\Desktop\Calebbertrand.github.io\js\utils" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="serve" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.onScreen.js">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/index.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="onScreen.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/utils/onScreen.js" working-dir="$PROJECT_DIR$/js/utils">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>serve</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="webpack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="webpack" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.webpack" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.onScreen.js" />
+        <item itemvalue="Gulp.js.serve" />
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="654c6c10-247e-42e6-994e-691e41e5780f" name="Default Changelist" comment="" />
+      <created>1607461178712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607461178712</updated>
+      <workItem from="1607461180748" duration="611000" />
+      <workItem from="1607461806562" duration="211000" />
+      <workItem from="1607462028563" duration="2074000" />
+      <workItem from="1607464113956" duration="2358000" />
+      <workItem from="1607467300362" duration="150000" />
+      <workItem from="1607488139367" duration="650000" />
+      <workItem from="1607535953517" duration="11619000" />
+      <workItem from="1607616365411" duration="12109000" />
+      <workItem from="1607961249980" duration="12837000" />
+      <workItem from="1608057267146" duration="2742000" />
+      <workItem from="1608168577455" duration="20163000" />
+      <workItem from="1608241118071" duration="358000" />
+      <workItem from="1608241491030" duration="3918000" />
+      <workItem from="1608256349295" duration="2395000" />
+      <workItem from="1608311194477" duration="4382000" />
+      <workItem from="1608326562971" duration="5556000" />
+      <workItem from="1608407152371" duration="2538000" />
+      <workItem from="1608423814185" duration="11925000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint log-message="true" log-stack="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
