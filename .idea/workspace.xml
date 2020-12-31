@@ -5,55 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="654c6c10-247e-42e6-994e-691e41e5780f" name="Default Changelist" comment="Resume Button Added">
-      <change afterPath="$PROJECT_DIR$/assets/Caleb-Bertrand-1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imgs/Portfolio/AFTO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imgs/Portfolio/BTB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imgs/Portfolio/MTTA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imgs/Portfolio/SoundVisualization.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imgs/Portfolio/TCF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imgs/icons/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imgs/icons/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imgs/icons/indeed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imgs/icons/link.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imgs/icons/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imgs/icons/upwork.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imgs/white_IDE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/components/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/components/portfolio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/components/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/components/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/components/portfolio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/utils/_button-slide-animation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Old-Code (Delete)/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Old-Code (Delete)/pricing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Old-Code (Delete)/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imgs/cms.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imgs/dynamic.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imgs/heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imgs/responsive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imgs/save_as.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imgs/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/t.js-master/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/js/vendor/t.js-master/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/t.js-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/js/vendor/t.js-master/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/t.js-master/demo.htm" beforeDir="false" afterPath="$PROJECT_DIR$/js/vendor/t.js-master/demo.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/t.js-master/demo2.htm" beforeDir="false" afterPath="$PROJECT_DIR$/js/vendor/t.js-master/demo2.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/t.js-master/t.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vendor/t.js-master/t.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/t.js-master/t.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vendor/t.js-master/t.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/stack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/.__mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/._style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/modules/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/utils/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/modules/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/utils/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/sections/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/sections/_nav-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_nav-bar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/sections/_stack.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_stack.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_nav-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_nav-bar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
@@ -204,7 +157,7 @@
       <workItem from="1608852250245" duration="4159000" />
       <workItem from="1608997810789" duration="4003000" />
       <workItem from="1609177209547" duration="16194000" />
-      <workItem from="1609353521109" duration="22188000" />
+      <workItem from="1609353521109" duration="23123000" />
     </task>
     <servers />
   </component>

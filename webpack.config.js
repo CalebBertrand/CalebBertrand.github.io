@@ -11,10 +11,10 @@ module.exports = {
     entry: path.resolve(__dirname, './js/app.js'),
     output: {
         filename: "app.[contentHash].js",
-        path: path.resolve(__dirname, "./build")
+        path: path.resolve(__dirname, "./docs")
     },
     devServer: {
-        contentBase: './build'
+        contentBase: './docs'
     },
     module: {
         rules: [
