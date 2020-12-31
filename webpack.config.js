@@ -31,17 +31,44 @@ module.exports = {
                 test: /\.scss$/,
                 use: ['style-loader', 'css-loader', 'sass-loader']
             },
-            {
-                test: /\.html$/,
-                use: ['html-loader']
-            },
+            // {
+            //     test: /\.html$/,
+            //     use: {
+            //         loader: 'html-loader',
+            //         options: {
+            //             interpolate: 'require'
+            //         }
+            //     }
+            // },
             {
                 test: /\.(png|gif|jpeg|jpg|svg)$/,
                 use: {
                     loader: 'file-loader',
                     options: {
                         name: '[name].[hash].[ext]',
-                        outputPath: 'imgs'
+                        outputPath: 'imgs',
+                        esModule: false
+                    }
+                }
+            },
+            {
+                test: /\.(woff|eot|ttf)$/,
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[hash].[ext]',
+                        outputPath: 'fonts'
+                    }
+                }
+            },
+            {
+                test: /\.pdf$/,
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[hash].[ext]',
+                        outputPath: 'documents',
+                        esModule: false
                     }
                 }
             }
@@ -49,12 +76,11 @@ module.exports = {
     },
     plugins: [
         new webpack.ProvidePlugin({
-            // global modules
+            // global utils
             $: 'jquery',
-            jQuery: 'jquery',
-            defaultExport: 'slick-carousel'
+            jQuery: 'jquery'
         }),
-        new Inject(() => fs.readFileSync('./assets/js/t.js-master/t.js', {encoding: 'utf-8'}), {
+        new Inject(() => fs.readFileSync('./js/vendor/t.js-master/t.js', {encoding: 'utf-8'}), {
             entryOrder: ENTRY_ORDER.Last
         }),
         new HtmlWebpack({

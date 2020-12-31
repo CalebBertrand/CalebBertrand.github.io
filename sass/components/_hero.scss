@@ -1,5 +1,5 @@
 #hero {
-    @include backgroundImage('../assets/imgs/save_as.jpg', rgba(0, 0, 0, 0.75));
+    @include backgroundImage('../assets/imgs/white_IDE.jpg', rgba(0, 0, 0, .5));
     background-attachment: fixed;
 }
 
@@ -8,6 +8,7 @@
     text-align: center;
     visibility: collapse;
     @include textShadow($shadow-color);
+    color: lighten($dark-gray, 5%);
 
     @include breakpoint(medium down) {
         font-size: 35px;

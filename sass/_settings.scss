@@ -65,12 +65,12 @@
 // 1. Global
 // ---------
 
-$global-font-size: 100%;
+$global-font-size: 110%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #767676, 
-  secondary: #3ce28e,
+  primary: #fd4d4f,
+  secondary: #9328c1,
   success: #3a78db,
   warning: #ffae00,
   alert: #cc4b37,
@@ -80,8 +80,8 @@ $medium-gray: #999999;
 $dark-gray: #2e2e2e;
 $black: #141414;
 $white: #ececec;
-$body-background: $black;
-$body-font-color: $white;
+$body-background: darken($white, 5%);
+$body-font-color: $dark-gray;
 $body-font-family: 'Montserrat', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
@@ -147,9 +147,9 @@ $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
-    'h1': ('font-size': 24),
-    'h2': ('font-size': 20),
-    'h3': ('font-size': 19),
+    'h1': ('font-size': 36),
+    'h2': ('font-size': 30),
+    'h3': ('font-size': 24),
     'h4': ('font-size': 18),
     'h5': ('font-size': 17),
     'h6': ('font-size': 16),
@@ -166,11 +166,11 @@ $header-styles: (
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
-$paragraph-lineheight: 1.6;
+$paragraph-lineheight: 2;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $enable-code-inline: true;
-$anchor-color: $primary-color;
+$anchor-color: $white;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;

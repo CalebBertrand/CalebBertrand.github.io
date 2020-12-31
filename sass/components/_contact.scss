@@ -1,0 +1,46 @@
+#contact {
+  display: flex;
+  @include gradientBackground();
+
+  .contact-container {
+    max-width: 55%;
+    padding: 35px;
+
+    background-color: $body-background;
+    @include boxShadow();
+
+    @include breakpoint(medium down) {
+      max-width: 85%;
+    }
+    @include breakpoint(small down) {
+      max-width: 95%;
+    }
+
+    .socials {
+      display: flex;
+      margin-top: 5vh;
+
+      img {
+        width: 95px;
+        padding: 20px;
+
+        @include boxShadow(rgba(0, 0, 0, 0.1));
+
+        &:hover {
+          transform: translateX(-10px) translateY(-10px);
+          filter: invert(100%);
+          background-color: $white;
+        }
+
+        @include breakpoint(medium down) {
+          width: 75px;
+          padding: 15px;
+        }
+        @include breakpoint(small down) {
+          width: 60px;
+          padding: 12px;
+        }
+      }
+    }
+  }
+}

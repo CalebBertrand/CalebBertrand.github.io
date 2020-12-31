@@ -3,9 +3,14 @@
 @import '../node_modules/foundation-sites/scss/foundation';
 @include foundation-everything;
 
-@import 'modules/mixins';
-@import 'modules/base';
+@import 'utils/mixins';
+@import 'utils/base';
+@import 'utils/button-slide-animation';
 
-@import 'sections/hero';
-@import 'sections/nav-bar';
-@import 'sections/stack';
+
+@import 'components/hero';
+@import 'components/nav-bar';
+@import 'components/stack';
+@import 'components/portfolio';
+@import 'components/contact';
+@import 'components/footer';

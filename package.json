@@ -4,7 +4,7 @@
     "description": "Web Development and Design by Caleb Bertrand",
     "main": "gulpfile.js",
     "scripts": {
-        "webpack": "webpack --config webpack.config.js"
+        "webpack": "webpack serve"
     },
     "keywords": [
         "website, devepolment, design, javascript, app, css, webflow"

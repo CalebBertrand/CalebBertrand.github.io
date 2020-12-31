@@ -1,24 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 @use 'sass:color';
 
+@mixin gradientBackground() {
+  background-image: linear-gradient(to bottom right, map-get($foundation-palette, 'secondary'), map-get($foundation-palette, 'primary'));
+}
+
 * { box-sizing: border-box; }
 
 .fullscreen {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /** Structure **/
 
 section {
-  padding: 25px;
+  padding: 10vh 25px;
   overflow: auto;
 }
 
 /** Text **/
 
 .contrast {
-  color: map-get($foundation-palette, 'secondary');
+  //background-color: map-get($foundation-palette, 'secondary');
+  @include gradientBackground();
+  color: $white;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .align-c {
@@ -35,13 +43,35 @@ section {
 del {
   text-decoration: none;
   .contrast {
-    color: map-get($foundation-palette, 'secondary');
+    background-color: map-get($foundation-palette, 'secondary');
+    color: $white;
+  }
+}
+
+.terminal-box {
+  background-color: $dark-gray;
+  color: $white;
+  border: 5px solid;
+  border-image: linear-gradient(to bottom right, map-get($foundation-palette, 'secondary'), map-get($foundation-palette, 'primary')) 20% stretch;
+
+  padding: $card-padding * 1.5;
+
+  .button {
+    background-color: $white;
+    color: $dark-gray;
+    a {
+      color: $dark-gray;
+    }
+
+    &:hover {
+      background-color: darken($white, 15%);
+    }
   }
 }
 
 /** Popups **/
 
-$border-radius: 5px;
+$border-radius: 0px;
 $shadow-color: rgba(0, 0, 0, 0.3);
 
 .popup {
@@ -49,10 +79,10 @@ $shadow-color: rgba(0, 0, 0, 0.3);
   padding: 8px;
   box-shadow: 0px 0px 20px 5px $shadow-color;
   background-color: lighten($black, 5%);
+  z-index: 3;
   //display: none;
 
   &.bottom-right {
-    z-index: 1;
     position: fixed;
     bottom: 25px;
     right: 25px;

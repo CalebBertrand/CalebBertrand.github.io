@@ -1,0 +1,155 @@
+#portfolio {
+  overflow: visible;
+  padding: 75px 0;
+
+  .slick-slide {
+
+    margin: 50px .25% 50px .25%;
+
+    div{
+      height: 75vh;
+
+      .slide {
+        height: 100%;
+        max-width: 86%;
+        margin-left: 7%;
+        position: relative;
+
+        border-radius: $border-radius * 2;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @include breakpoint(small down) {
+          max-width: 100%;
+          margin-left: 0;
+        }
+
+        div.data {
+          color: $white;
+          letter-spacing: 1px;
+          background-color: transparentize($black, 0.15);
+
+          strong {
+            letter-spacing: 2px;
+          }
+
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          height: auto;
+
+          padding: 15px 15px 15px 35px;
+
+        }
+
+        div.view {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          transition: top .15s;
+
+          @include gradientBackground();
+          border-radius: $border-radius;
+          padding: 10px 15px 5px 15px;
+          height: auto;
+
+          &:hover {
+            cursor: pointer;
+            top: 15px;
+          }
+
+          h3 {
+            margin-left: 15px;
+            margin-bottom: 0;
+            float: right;
+            font-size: 30px;
+            color: $white;
+          }
+          img {
+            float: left;
+            filter: invert(100%);
+          }
+        }
+
+        //@include breakpoint(small down) {
+        //  background-color: map-get($foundation-palette, 'secondary');
+        //}
+      }
+    }
+  }
+
+
+  .slick-dots { // Custom PREV and NEXT buttons added via jQuery in portfolio.js
+    padding: 15px 0;
+
+    position: static;
+    margin: auto;
+
+    @include breakpoint(small down) {
+      width: 100%;
+      left: 0;
+    }
+
+    li {
+      background-color: transparent;
+      border: 5px solid $dark-gray;
+      opacity: 1;
+      width: 30px;
+      height: 30px;
+
+      &.slick-active {
+        background-color: $dark-gray;
+      }
+    }
+
+    //div.arrows {
+    //  position: absolute;
+    //  top: 15px;
+    //
+    //  background-color: map-get($foundation-palette, 'secondary');
+    //  display: inline-block;
+    //  padding: 0 15px;
+    //  width: fit-content;
+    //  height: 30px;
+    //
+    //  &.prev {
+    //    right: 100%;
+    //  }
+    //  &.next {
+    //    left: 100%;
+    //  }
+    //
+    //  h6 {
+    //    font-size: 30px;
+    //    color: $white;
+    //  }
+    //
+    //  @include breakpoint(small down) {
+    //    display: none;
+    //  }
+    //}
+  }
+
+  .slick-dots li button::before { // Remove default look of the dots
+    display: none;
+    content: "";
+  }
+  //
+  //.slick-prev {
+  //  left: 1.5%;
+  //}
+  //.slick-next {
+  //  right: 1.5%;
+  //}
+  //.slick-arrow {
+  //  z-index: 1;
+  //  background-color: map-get($foundation-palette, 'secondary');
+  //  height: 25vh;
+  //  width: 2.5%;
+  //  min-width: 35px;
+  //  padding: 5px;
+  //}
+}

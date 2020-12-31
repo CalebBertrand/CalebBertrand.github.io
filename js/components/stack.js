@@ -25,7 +25,7 @@ const stack = [
     { name: "VS Code", category: "IDE", url: "https://code.visualstudio.com/" },
     { name: "WebStorm", category: "IDE", url: "https://www.jetbrains.com/webstorm/" },
 
-    { name: "Webflow", category: "Web Builders", url: "https://webflow.com" },
+    { name: "Webflow", category: "Web Designers", url: "https://webflow.com" },
 
     { name: "Microsoft Office", category: "Applications", url: "https://www.office.com/" },
 
@@ -54,7 +54,7 @@ export const setupStackTags = function() {
         colorIndex++;
     }
 
-    let stackContainer = $('#stack')
+    let stackContainer = $('#stack-card-container')
 
     stack.forEach((elm) => {
         stackContainer.append(`<div class="stack-item"><h4 class="stack-item-name terminal"><a href=${elm.url} target=”_blank”>${elm.name}</a></h4><h5 style="background-color: ${categoryColors[elm.category]}" class="stack-item-category">${elm.category}</h5></div>`);

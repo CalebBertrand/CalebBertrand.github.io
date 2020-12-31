@@ -1,0 +1,43 @@
+.button-slide-animation {
+  cursor: pointer;
+  position: relative;
+
+  border: none;
+
+  h3, h4, h5, strong, span, a {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    letter-spacing: 2px;
+    @include textShadow(rgba(0, 0, 0, 0.3), 8px);
+
+    transition: color 0.25s;
+  }
+
+  background-color: lighten($body-background, 3%);
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+
+    @include gradientBackground();
+    z-index: 1;
+
+    transition: width 0.25s;
+  }
+
+  &:hover::after, &:active::after, &.active::after {
+    width: 100%;
+  }
+
+  &:hover, &:active, &.active {
+    color: $white;
+    a {
+      color: $white;
+    }
+  }
+}
