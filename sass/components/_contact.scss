@@ -27,7 +27,7 @@
         @include boxShadow(rgba(0, 0, 0, 0.1));
 
         &:hover {
-          transform: translateX(-10px) translateY(-10px);
+          //transform: translateX(-10px) translateY(-10px);
           filter: invert(100%);
           background-color: $white;
         }

@@ -11,16 +11,19 @@
     padding: 8px 15px 8px 15px;
     background-color: lighten($body-background, 20%);
 
+    @include boxShadow(rgba(0, 0, 0, 0.1));
+    transition: box-shadow 0.45s;
+
     h4 a {
       color: $dark-gray;
     }
 
     visibility: hidden;
-
     float: left;
 
     &:hover {
-      transform: translateX(-10px) translateY(-10px);
+      //transform: translateX(-10px) translateY(-10px);
+      @include boxShadow(rgba(0, 0, 0, 0.2));
     }
 
     .stack-item-name {

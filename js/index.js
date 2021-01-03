@@ -2,6 +2,7 @@ import 'slick-carousel/slick/slick.js';
 
 import {onScreen} from './utils/onScreen';
 
+import {setupNavBar} from './components/navbar';
 import {setupStackTags} from './components/stack';
 import {setupPortfolio} from './components/portfolio';
 import {setupContact} from './components/contact';
@@ -9,6 +10,8 @@ import {setupContact} from './components/contact';
 export { main };
 
 const main = function() {
+
+    setupNavBar();
 
     setupStackTags();
 

@@ -1,7 +1,6 @@
-.button-slide-animation {
+.button-slide-animation, .button-slide-animation-inverted {
   cursor: pointer;
   position: relative;
-
   border: none;
 
   h3, h4, h5, strong, span, a {
@@ -13,6 +12,16 @@
 
     transition: color 0.25s;
   }
+
+  &:hover, &:active, &.active {
+    color: $white;
+    a {
+      color: $white;
+    }
+  }
+}
+
+.button-slide-animation {
 
   background-color: lighten($body-background, 3%);
 
@@ -33,11 +42,28 @@
   &:hover::after, &:active::after, &.active::after {
     width: 100%;
   }
+}
 
-  &:hover, &:active, &.active {
-    color: $white;
-    a {
-      color: $white;
-    }
+.button-slide-animation-inverted {
+
+  background-color: transparent;
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+
+    background-color: lighten($body-background, 3%);
+    z-index: 1;
+
+    transition: width 0.25s;
+
+  }
+
+  &:hover::after, &:active::after, &.active::after {
+    width: 0%;
   }
 }

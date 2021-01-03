@@ -1,7 +1,7 @@
 import { main } from './index';
 
 import '../sass/index.scss';
-import { Core, Sticky, SmoothScroll, Triggers, MediaQuery } from 'foundation-sites/js/foundation.js';
+import { Core, Sticky, SmoothScroll, Triggers, MediaQuery, Tooltip } from 'foundation-sites/js/foundation.js';
 
 SmoothScroll.defaults.animationDuration = 800;
 SmoothScroll.defaults.animationEasing = 'swing';
