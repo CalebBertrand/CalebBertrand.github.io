@@ -4,7 +4,9 @@
     "description": "Web Development and Design by Caleb Bertrand",
     "main": "gulpfile.js",
     "scripts": {
-        "webpack": "webpack serve"
+        "start": "node server",
+        "heroku-postbuild": "webpack --config webpack.config.js --mode production",
+        "webpack-dev": "webpack serve"
     },
     "keywords": [
         "website, devepolment, design, javascript, app, css, webflow"
@@ -12,6 +14,7 @@
     "author": "Caleb Bertrand",
     "license": "ISC",
     "dependencies": {
+        "express": "^4.17.1",
         "foundation-sites": "^6.6.3",
         "jquery": "^3.5.1",
         "slick-carousel": "^1.8.1"

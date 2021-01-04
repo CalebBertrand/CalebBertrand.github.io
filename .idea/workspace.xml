@@ -5,34 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="654c6c10-247e-42e6-994e-691e41e5780f" name="Default Changelist" comment="Resume Button Added">
-      <change afterPath="$PROJECT_DIR$/js/components/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/app.e62c1919623162d73a5b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documents/Caleb-Bertrand-1.c1fa63189b9e3e53265b0af5cdd75966.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/fonts/slick.295183786cd8a138986521d9f388a286.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/fonts/slick.a4e97f5a2a64f0ab132323fbeb33ae29.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/fonts/slick.c94f7671dcc99dce43e22a89f486f7c2.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/AFTO.b8c277099ffeb430548182094240221d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/BTB.e9169fe19fd1a2a56f9f0bb9876f3104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/MTTA.e1e2922665b629cfaa69756eb386a27f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/SoundVisualization.7349ccf1aa0eed528e4806624ba3dbcf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/TCF.4142061fdeb35be69c8380e1d7ff3878.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/ajax-loader.fb6f3c230cb846e25247dfaa1da94d8f.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/facebook.739fc46df29e61f0e225bd2344a9e412.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/indeed.cedf2d814ed1f2e57baf9ba9ef978dcd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/link.09a1e30fa64947e0e6d8c102e6f10210.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/slick.2630a3e3eab21c607e21576571b95b9d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/twitter.33c9e01fd1ed259c818a47744a0fd176.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/upwork.909474e1946960ce6053073daec02fb9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/imgs/white_IDE.558c9b541c8fe09bfbf23932d592c68d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_stack.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_stack.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/utils/_button-slide-animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/utils/_button-slide-animation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/stack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +162,9 @@
       <workItem from="1609177209547" duration="16194000" />
       <workItem from="1609353521109" duration="23123000" />
       <workItem from="1609550778202" duration="636000" />
-      <workItem from="1609703857618" duration="7301000" />
+      <workItem from="1609703857618" duration="7452000" />
+      <workItem from="1609723090003" duration="1511000" />
+      <workItem from="1609786344069" duration="3020000" />
     </task>
     <servers />
   </component>

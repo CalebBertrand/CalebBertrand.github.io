@@ -20,7 +20,9 @@ const stack = [
 
     { name: "Git", category: "Version Control", url: "https://git-scm.com/" },
 
-    { name: "Heroku", category: "Production/Testing", url: "https://www.heroku.com/" },
+    { name: "Heroku", category: "Pipelines", url: "https://www.heroku.com/" },
+
+    { name: "Express.js", category: "Serving", url: "https://expressjs.com/" },
 
     { name: "VS Code", category: "IDE", url: "https://code.visualstudio.com/" },
     { name: "WebStorm", category: "IDE", url: "https://www.jetbrains.com/webstorm/" },
