@@ -20,19 +20,15 @@ const stack = [
 
     { name: "Git", category: "Version Control", url: "https://git-scm.com/" },
 
-    { name: "Heroku", category: "Pipelines", url: "https://www.heroku.com/" },
+    { name: "Heroku", category: "Hosting", url: "https://www.heroku.com/" },
+    { name: "AWS Amplify", category: "Hosting", url: "https://aws.amazon.com/amplify/" },
 
     { name: "Express.js", category: "Serving", url: "https://expressjs.com/" },
 
     { name: "VS Code", category: "IDE", url: "https://code.visualstudio.com/" },
     { name: "WebStorm", category: "IDE", url: "https://www.jetbrains.com/webstorm/" },
 
-    { name: "Webflow", category: "Web Designers", url: "https://webflow.com" },
-
-    { name: "Microsoft Office", category: "Applications", url: "https://www.office.com/" },
-
-    { name: "Microsoft Teams", category: "Communication", url: "https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software" },
-    { name: "Slack", category: "Communication", url: "https://slack.com/" }
+    { name: "Webflow", category: "Web Designers", url: "https://webflow.com" }
 
 ]
 

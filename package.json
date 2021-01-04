@@ -2,7 +2,7 @@
     "name": "caleb-bertrand-designs",
     "version": "1.0.0",
     "description": "Web Development and Design by Caleb Bertrand",
-    "main": "gulpfile.js",
+    "main": "server.js",
     "scripts": {
         "start": "node server",
         "heroku-postbuild": "webpack --config webpack.config.js --mode production",
