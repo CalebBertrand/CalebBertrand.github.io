@@ -8,8 +8,6 @@ export const setupNavBar = function() {
         menuTargetOffsets.push($(`#${$(e).attr('id').split('-')[0]}`).offset().top);
     })
 
-    console.log(menuItems, menuTargetOffsets)
-
     $(window).scroll(function() {
         let windowScroll = $(window).scrollTop();
 
