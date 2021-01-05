@@ -14,9 +14,13 @@
   }
 
   &:hover, &:active, &.active {
-    color: $white;
+    color:  $white;
     a {
-      color: $white;
+      color:  $white;
+    }
+
+    &.button {
+      background-color: $button-background;
     }
   }
 }
@@ -37,6 +41,12 @@
     z-index: 1;
 
     transition: width 0.25s;
+
+
+  }
+  &.dark::after {
+    background-color: $dark-gray;
+    background-image: none;
   }
 
   &:hover::after, &:active::after, &.active::after {

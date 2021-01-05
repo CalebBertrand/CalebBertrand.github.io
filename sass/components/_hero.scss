@@ -11,7 +11,7 @@
     color: lighten($dark-gray, 5%);
 
     @include breakpoint(medium down) {
-        font-size: 35px;
+        font-size: 45px;
         width: 85%;
     }
 }

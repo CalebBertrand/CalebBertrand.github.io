@@ -26,10 +26,10 @@
 
         @include boxShadow(rgba(0, 0, 0, 0.1));
 
-        &:hover {
+        &:hover, &:visited {
           //transform: translateX(-10px) translateY(-10px);
           filter: invert(100%);
-          background-color: $white;
+          background-color: invert($dark-gray);
         }
 
         @include breakpoint(medium down) {
@@ -39,6 +39,31 @@
         @include breakpoint(small down) {
           width: 60px;
           padding: 12px;
+        }
+      }
+    }
+
+    .contact-form-container {
+      width: 100%;
+      margin-top: 45px;
+      .button-slide-animation {
+        display: block;
+        margin: auto;
+        width: 95%;
+        max-width: 500px;
+        border: solid 5px $dark-gray;
+
+        a {
+          color: $dark-gray;
+          text-shadow: none;
+          display: block;
+          padding: 10px 25px;
+        }
+
+        &:hover {
+          a {
+            color: $white;
+          }
         }
       }
     }

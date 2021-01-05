@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="654c6c10-247e-42e6-994e-691e41e5780f" name="Default Changelist" comment="Resume Button Added">
-      <change afterPath="$PROJECT_DIR$/assets/imgs/Portfolio/AwakenInt.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/utils/_button-slide-animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/utils/_button-slide-animation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +173,10 @@
       <workItem from="1609550778202" duration="636000" />
       <workItem from="1609703857618" duration="7452000" />
       <workItem from="1609723090003" duration="1511000" />
-      <workItem from="1609786344069" duration="11158000" />
+      <workItem from="1609786344069" duration="12357000" />
+      <workItem from="1609861356899" duration="39000" />
+      <workItem from="1609865807651" duration="2614000" />
+      <workItem from="1609881924184" duration="5226000" />
     </task>
     <servers />
   </component>

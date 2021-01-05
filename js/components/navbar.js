@@ -19,4 +19,8 @@ export const setupNavBar = function() {
             }
         })
     })
+
+    $(window).resize(function() {
+        $('.menu').foundation('_calc', true);
+    })
 }

@@ -15,7 +15,7 @@
         </section>
         
         <header data-sticky-container>
-            <div data-sticky data-margin-top="0" data-top-anchor="hero:bottom" class="menu grid-x sticky">
+            <div data-sticky data-margin-top="0" data-top-anchor="hero:bottom" data-sticky-on="large" data-check-every="5" class="menu grid-x sticky">
                 <!--     menu items must have ids of idOfLinkedElm-menu-item     -->
                 <div id="portfolio-menu-item" class="align-c cell small-12 medium-4 button-slide-animation-inverted active" data-smooth-scroll><h3><a href="#portfolio">Portfolio</a></h3></div>
                 <div id="stack-menu-item" class="align-c cell small-12 medium-4 button-slide-animation-inverted" data-smooth-scroll><h3><a href="#stack">Stack</a></h3></div>
@@ -93,8 +93,11 @@
                 <h1 class="terminal typed">Contact Me</h1>
                 <p>
                     Pricing for freelance projects are entirely on a case by case basis. <br>
-                    I'm available on these networks. If you would like my phone number or email, please get in touch via one of them first.
+                    You can reach me at these networks, or by filling out the form below!
                 </p>
+                <div class="contact-form-container">
+                    <h4><strong class="button-slide-animation dark align-c"><a href="https://forms.gle/emQDWrs2mUZeRduU7" target="_blank">Contact Form</a></strong></h4>
+                </div>
                 <div class="socials align-spaced">
                     <span data-tooltip tabindex="1" class="bottom" title="Twitter"><a href="https://twitter.com/CalebBertrand2" target="_blank"><img src="<%= require('./assets/imgs/icons/twitter.png') %>" alt="twitter logo"></a></span>
                     <span data-tooltip tabindex="1" class="bottom" title="Facebook"><a href="https://www.facebook.com/caleb.bertrand.75" target="_blank"><img src="<%= require('./assets/imgs/icons/facebook.png') %>" alt="facebook logo"></a></span>
