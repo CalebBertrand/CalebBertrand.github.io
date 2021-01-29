@@ -8,6 +8,7 @@ const stack = [
 
     { name: "SCSS", category: "Frameworks", url: "https://sass-lang.com/" },
     { name: "Node.js", category: "Frameworks", url: "https://nodejs.org" },
+    { name: "React.js", category: "Frameworks", url: "https://reactjs.org/" },
 
     { name: "ZURB Foundation", category: "Libraries", url: "https://get.foundation/" },
     { name: "jQuery", category: "Libraries", url: "https://jquery.com/" },
@@ -48,7 +49,7 @@ export const setupStackTags = function() {
 
     colorIndex = 0;
     for (let cat in categoryColors) {
-        categoryColors[cat] = `hsl(${colorIndex * 255 / (Object.keys(categoryColors).length - 1)}, 85%, 50%)`;
+        categoryColors[cat] = `hsl(${colorIndex * 255 / (Object.keys(categoryColors).length - 1)}, 90%, 50%)`;
         colorIndex++;
     }
 

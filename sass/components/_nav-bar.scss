@@ -1,14 +1,17 @@
 .menu {
     position: relative;
     width: 100%;
-    @include boxShadow();
+    @include boxShadow(rgba(0, 0, 0, 0.3));
     @include gradientBackground();
 
     .cell {
-        padding: 20px;
+        padding: 10px 0;
 
         a {
             color: $dark-gray;
+            font-size: 2.25rem;
+            letter-spacing: 6px;
+            text-shadow: none;
         }
 
         &:hover, &.active {
