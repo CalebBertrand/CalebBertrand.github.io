@@ -1,21 +1,21 @@
 #portfolio {
   overflow: visible;
-  padding: 75px 0;
+  padding-top: 75px;
 
   .slick-slide {
 
-    margin: 50px .25% 50px .25%;
+    margin: 50px .25% 5px .25%;
 
     div{
-      height: 75vh;
+      height: 65vh;
 
       .slide {
         height: 100%;
-        max-width: 86%;
-        margin-left: 7%;
+        max-width: 76%;
+        margin-left: 12%;
         position: relative;
 
-        border-radius: $border-radius * 2;
+        @include boxShadow(rgba(0, 0, 0, 0.25));
 
         background-position: center;
         background-repeat: no-repeat;
@@ -73,17 +73,16 @@
             filter: invert(100%);
           }
         }
-
-        //@include breakpoint(small down) {
-        //  background-color: map-get($foundation-palette, 'secondary');
-        //}
       }
     }
   }
 
+  .slick-list {
+    padding-bottom: 20px;
+  }
 
-  .slick-dots { // Custom PREV and NEXT buttons added via jQuery in portfolio.js
-    padding: 15px 0;
+  .slick-dots {
+    padding-bottom: 15px;
 
     position: static;
     margin: auto;
@@ -104,52 +103,10 @@
         background-color: $dark-gray;
       }
     }
-
-    //div.arrows {
-    //  position: absolute;
-    //  top: 15px;
-    //
-    //  background-color: map-get($foundation-palette, 'secondary');
-    //  display: inline-block;
-    //  padding: 0 15px;
-    //  width: fit-content;
-    //  height: 30px;
-    //
-    //  &.prev {
-    //    right: 100%;
-    //  }
-    //  &.next {
-    //    left: 100%;
-    //  }
-    //
-    //  h6 {
-    //    font-size: 30px;
-    //    color: $white;
-    //  }
-    //
-    //  @include breakpoint(small down) {
-    //    display: none;
-    //  }
-    //}
   }
 
   .slick-dots li button::before { // Remove default look of the dots
     display: none;
     content: "";
   }
-  //
-  //.slick-prev {
-  //  left: 1.5%;
-  //}
-  //.slick-next {
-  //  right: 1.5%;
-  //}
-  //.slick-arrow {
-  //  z-index: 1;
-  //  background-color: map-get($foundation-palette, 'secondary');
-  //  height: 25vh;
-  //  width: 2.5%;
-  //  min-width: 35px;
-  //  padding: 5px;
-  //}
 }
