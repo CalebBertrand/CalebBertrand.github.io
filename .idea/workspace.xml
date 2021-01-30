@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="654c6c10-247e-42e6-994e-691e41e5780f" name="Default Changelist" comment="Resume Button Added">
+      <change afterPath="$PROJECT_DIR$/assets/imgs/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/utils/splashscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/components/_splashscreen.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/stack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_nav-bar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_nav-bar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +183,8 @@
       <workItem from="1610126307481" duration="33000" />
       <workItem from="1610752951116" duration="696000" />
       <workItem from="1610823175121" duration="41000" />
-      <workItem from="1611945533273" duration="2447000" />
+      <workItem from="1611945533273" duration="3070000" />
+      <workItem from="1611969202808" duration="2696000" />
     </task>
     <servers />
   </component>

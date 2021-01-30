@@ -1,6 +1,7 @@
 #portfolio {
   overflow: visible;
   padding-top: 75px;
+  background-color: $black;
 
   .slick-slide {
 
@@ -15,7 +16,7 @@
         margin-left: 12%;
         position: relative;
 
-        @include boxShadow(rgba(0, 0, 0, 0.25));
+        @include boxShadow();
 
         background-position: center;
         background-repeat: no-repeat;
@@ -94,13 +95,15 @@
 
     li {
       background-color: transparent;
-      border: 5px solid $dark-gray;
+      border: solid 4px $body-background;
+      border-image-slice: 1;
+      border-image-source: linear-gradient(to bottom right, map-get($foundation-palette, "secondary"), map-get($foundation-palette, "primary"));
       opacity: 1;
       width: 30px;
       height: 30px;
 
       &.slick-active {
-        background-color: $dark-gray;
+        @include gradientBackground();
       }
     }
   }

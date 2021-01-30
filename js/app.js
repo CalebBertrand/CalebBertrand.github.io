@@ -1,4 +1,10 @@
 import { main } from './index';
+import {splashScreen} from './utils/splashscreen';
+
+window.$ = $;
+window.jQuery = jQuery;
+
+splashScreen();
 
 import '../sass/index.scss';
 
@@ -6,9 +12,6 @@ import { Core, Sticky, SmoothScroll, Triggers, MediaQuery, Tooltip } from 'found
 
 SmoothScroll.defaults.animationDuration = 800;
 SmoothScroll.defaults.animationEasing = 'swing';
-
-window.$ = $;
-window.jQuery = jQuery;
 
 $(function() {
     $(document).foundation();
