@@ -2,10 +2,17 @@ export const splashScreen = () => {
 
     const $body = $('body');
 
-    console.log($body)
+    function onReady(callback) {
+        let intervalId = window.setInterval(function() {
+            if (document.getElementsByTagName('body')[0] !== undefined) {
+                window.clearInterval(intervalId);
+                callback();
+            }
+        }, 500);
+    }
 
-    $(document).ajaxStop(() => {
-        $body.removeClass("loading");
-        $('.loading-splashscreen').hide();
+    onReady(() => {
+        $body.removeClass('loading');
+        $('.loading-splashscreen').css('display', 'none');
     });
 }

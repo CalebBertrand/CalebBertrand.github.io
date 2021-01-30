@@ -1,7 +1,7 @@
 #portfolio {
   overflow: visible;
   padding-top: 75px;
-  background-color: $black;
+  background-image: linear-gradient(lighten($black, 6%), $black);
 
   .slick-slide {
 
