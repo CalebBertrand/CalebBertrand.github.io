@@ -19,14 +19,8 @@ const main = function() {
 
     setupContact();
 
-    /** Popups **/
-
-    $('.popup').each((i, elm) => {
-        onScreen(elm, (e) => {
-            $(e).addClass('bottom-right').fadeIn();
-        });
-    })
-
+    /** Fade in Stack Items **/
+    
     $('.stack-item').each((index, elm) => {
         let speed = 500 + index * 50;
         onScreen(elm, (e) => {
