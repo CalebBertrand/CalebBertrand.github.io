@@ -1,18 +1,25 @@
 const stack = [
-    { name: "Javascript - ES6", category: "Languages", url: "https://developer.mozilla.org/en-US/docs/Glossary/JavaScript" },
+    { name: "Javascript", category: "Languages", url: "https://developer.mozilla.org/en-US/docs/Glossary/JavaScript" },
     { name: "Python", category: "Languages", url: "https://www.python.org/" },
     { name: "CSS3", category: "Languages", url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
-
+    { name: "C#", category: "Languages", url: "https://docs.microsoft.com/en-us/dotnet/csharp/" },
+    
+    { name: "SCSS", category: "Meta Languages", url: "https://sass-lang.com/" },
+    { name: "TypeScript", category: "Meta Languages", url: "https://www.typescriptlang.org/" },
+    
     { name: "HTML5", category: "Data", url: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5" },
     { name: "JSON", category: "Data", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON" },
 
-    { name: "SCSS", category: "Frameworks", url: "https://sass-lang.com/" },
-    { name: "Node.js", category: "Frameworks", url: "https://nodejs.org" },
-    { name: "React.js", category: "Frameworks", url: "https://reactjs.org/" },
+    { name: ".NET Core", category: "C# Frameworks", url: "https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-5.0" },
+    
+    { name: "Node.js", category: "Javascript Frameworks", url: "https://nodejs.org" },
+    { name: "Angular", category: "Javascript Frameworks", url: "https://angular.io" },
 
-    { name: "ZURB Foundation", category: "Libraries", url: "https://get.foundation/" },
-    { name: "jQuery", category: "Libraries", url: "https://jquery.com/" },
+    { name: "jQuery", category: "Javascript Libraries", url: "https://jquery.com/" },
 
+    { name: "ZURB Foundation", category: "UI Frameworks", url: "https://get.foundation/" },
+    { name: "Bootstrap", category: "UI Frameworks", url: "https://get.foundation/" },
+    
     { name: "NPM", category: "Package Managers", url: "https://www.npmjs.com/" },
 
     { name: "Gulp", category: "Compilers", url: "https://gulpjs.com/" },
@@ -21,16 +28,10 @@ const stack = [
 
     { name: "Git", category: "Version Control", url: "https://git-scm.com/" },
 
-    { name: "Heroku", category: "Hosting", url: "https://www.heroku.com/" },
-    { name: "AWS Amplify", category: "Hosting", url: "https://aws.amazon.com/amplify/" },
-
-    { name: "Express.js", category: "Serving", url: "https://expressjs.com/" },
+    { name: "AWS Amplify", category: "Cloud Services", url: "https://aws.amazon.com/amplify/" },
 
     { name: "VS Code", category: "IDE", url: "https://code.visualstudio.com/" },
-    { name: "WebStorm", category: "IDE", url: "https://www.jetbrains.com/webstorm/" },
-
-    { name: "Webflow", category: "Web Designers", url: "https://webflow.com" }
-
+    { name: "JetBrains Rider", category: "IDE", url: "https://www.jetbrains.com/rider/" }
 ]
 
 /** Calculate Stack Categories and Corresponding Colors, Append Stack Badges to Container */
